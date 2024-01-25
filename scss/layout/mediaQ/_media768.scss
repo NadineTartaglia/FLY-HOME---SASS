@@ -1,0 +1,228 @@
+@media (max-width: 768px) {
+
+    /* 768 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 9.375rem;
+    }
+
+    header nav {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 55%;
+        margin: 0%;
+    }
+
+    .logo-nav img {
+        width: 12.5rem;
+        height: 3.75rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 45%;
+    }
+
+    .pages {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0%;
+    }
+
+    .boton-nav {
+        font-size: 14px;
+        width: 11.25rem;
+        height: 1.875rem;
+        list-style-type: none;
+    }
+
+
+    /* 768 - Seccion Servicios */
+
+    .card {
+        width: 10rem;
+        height: 9rem;
+        border: black solid 2px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .card img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    /* 768 - Seccion Elegirnos */
+
+    .seccion-elegirnos {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #CFFF00;
+        width: 100%;
+        height: 43.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .info {
+        width: 100%;
+        height: 80%;
+    }
+
+    .info img {
+        width: 18.125rem;
+        height: 15rem;
+    }
+
+    /* 768 - Seccion Equipo */
+
+    .seccion-equipo {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        width: 100%;
+        height: 43.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-titulo {
+        height: 15%;
+    }
+
+    .card-miembros {
+        width: 100%;
+        height: 85%;
+        padding: 3.125rem 6.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-miembros article {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-retrato {
+        width: 9.5625rem;
+        height: 9.5625rem;
+    }
+
+    /* 768 - Seccion Beneficios */
+    .seccion-beneficios {
+        height: 43.75rem;
+    }
+
+    .beneficios-titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .list-ventajas {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* 768 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 9.375rem;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        width: 35%;
+        height: 100%;
+    }
+
+    .logo-footer a img {
+        width: 12.5rem;
+        height: 3.75rem;
+    }
+
+    .redes {
+        width: 65%;
+        height: 100%;
+    }
+
+    .redes ul {
+        list-style: none;
+        gap: 2.125rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .redes-sociales {
+        height: 2rem;
+        width: 1.6875rem;
+    }
+
+    /* 768 - CONTACTANOS */
+    .formulario {
+        height: 40.625rem;
+        grid-template-columns: repeat(4, 9.1875rem);
+        grid-template-rows: 8.75rem 4.375rem 11.875rem 2.5rem 8.75rem;
+    }
+
+    .ubicacion {
+        height: 17.5rem;
+        grid-template-columns: repeat(5, 6.875rem);
+        grid-template-rows: repeat(3, 5rem);
+    }
+
+    .box-data p {
+        font-size: 1rem;
+    }
+
+    .box-data input {
+        height: 2.1875rem;
+    }
+
+    .box-email p {
+        font-size: 1rem;
+    }
+
+    .box-email input {
+        height: 2.1875rem;
+    }
+
+    .ubicacion-title {
+        font-size: 1.125rem;
+    }
+
+    .ubicacion-maps {
+        height: 100%;
+        width: 100%;
+    }
+
+}

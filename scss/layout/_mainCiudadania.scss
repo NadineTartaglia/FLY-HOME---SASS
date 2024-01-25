@@ -1,0 +1,162 @@
+/* PAGINA - CIUDADANIA ITALIANA */
+
+/* 1° - SECCION */
+.intro-ciudadania {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    article:nth-child(1) {
+        height: 100%;
+        width: 40%;
+
+        img {
+            width: 80%;
+            height: 100%;
+        }
+    }
+
+    article:nth-child(2) {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+            font-size: map-get($font-size-lg, v2);
+            font-style: italic;
+
+            strong {
+                font-style: normal;
+                font-weight: bolder;
+            }
+        }
+
+        p {
+            padding-top: 1.875rem;
+            font-size: 18px;
+            text-align: justify;
+            line-height: 25px;
+        }
+    }
+}
+
+
+/* 2° - SECCION */
+
+.contenido-ciudadania {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 600px;
+    margin-top: 1.875rem;
+
+    article:nth-child(1) {
+        height: 30%;
+        width: 100%;
+        @include flex (column, center, center);
+
+        h2 {
+            font-size: map-get($font-size-lg, v2);
+            width: 100%;
+            text-align: center;
+        }
+
+        p {
+            @include flex (column, center, center);
+            height: 70%;
+            padding: 0% 9.375rem;
+            text-align: justify;
+        }
+    }
+
+
+    article:nth-child(2) {
+        height: 70%;
+        width: 100%;
+        @include flex (row, center, center);
+        gap: 4.375rem;
+
+
+        div:nth-child(1) {
+            width: 33%;
+            height: 90%;
+            @include flex (column, start, center);
+
+            h3 {
+                width: 100%;
+                height: 3.125rem;
+                background-color: $BackgroundPrincipal;
+                font-size: 1.25rem;
+                font-weight: bold;
+                text-align: center;
+                @include flex (row, center, center);
+            }
+
+            p {
+                font-size: map-get($font-size-lg, v3);
+                line-height: 22px;
+                text-align: justify;
+                padding-top: .625rem;
+            }
+        }
+
+        div:nth-child(2) {
+            width: 33%;
+            height: 90%;
+            @include flex (column, start, center);
+
+            h3 {
+                width: 100%;
+                height: 3.125rem;
+                background-color: $BackgroundPrincipal;
+                font-size: 1.25rem;
+                font-weight: bold;
+                text-align: center;
+                @include flex (row, center, center);
+            }
+
+            p {
+                font-size: map-get($font-size-lg, v3);
+                line-height: 22px;
+                text-align: justify;
+                padding-top: .625rem;
+            }
+
+        }
+    }
+}
+
+
+/* 3° - SECCION */
+
+.contenido-final {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    height: 12.5rem;
+    padding: 0% 9.375rem;
+    width: 100%;
+    @include flex (column, start, center);
+
+    h3 {
+        width: 100%;
+        height: 3.125rem;
+        background-color: #f5f5f5;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        @include flex (row, center, center);
+    }
+
+    p {
+        font-size: map-get($font-size-lg, v3);
+        line-height: 22px;
+        text-align: justify;
+        margin-top: .625rem;
+    }
+}

@@ -1,0 +1,25 @@
+/* 1.- UTILITIES*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+/* 2.- LAYOUT Y BASE */
+@import "./base/reset";
+@import "./base/typografias";
+@import "./layout/header";
+@import "./layout/mainIndex";
+@import "./layout/mainCiudadania";
+@import "./layout/mainGuia";
+@import "./layout/mainAsistencia";
+@import "./layout/mainContactanos";
+@import "./layout/footer";
+
+/* 3.- COMPONENTES */
+@import "./components/bootstrap";
+
+/* 4.- MEDIAQ */
+@import "./layout/mediaQ/media1024";
+@import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media425";
+@import "./layout/mediaQ/media375";
+@import "./layout/mediaQ/media320";

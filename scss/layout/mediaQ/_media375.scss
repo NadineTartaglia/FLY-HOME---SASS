@@ -1,0 +1,404 @@
+@media (max-width: 375px) {
+
+    /* 375 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 9.375rem;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 30%;
+    }
+
+    .logo-nav img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 70%;
+    }
+
+    .pages {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .125rem;
+    }
+
+    .boton-nav {
+        font-size: 10px;
+        width: 7.5rem;
+        height: 1.3125rem;
+    }
+
+    /* 375 - Banner Principal */
+
+    .banner-principal {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+        height: 18.75rem;
+        padding: 1.25rem;
+    }
+
+    /* 375 - Seccion Servicios */
+
+    .seccion-servicios {
+        height: 34.375rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerdor-intro {
+        width: 100%;
+        height: 30%;
+    }
+
+    .intro-titulo {
+        font-size: 14px;
+        height: 30%;
+
+    }
+
+    .intro-texto {
+        font-size: 10px;
+        line-height: 14px;
+        height: 70%;
+        padding: 0% 1.875rem;
+    }
+
+    .contenedor-cards {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 6.25rem;
+        height: 5.625rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .card h4 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /* 375 - Seccion Elegirnos */
+
+    .seccion-elegirnos {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #CFFF00;
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo {
+        height: 15%;
+        gap: .0625rem;
+        padding: 0% 1.875rem;
+    }
+
+    .titulo h2 {
+        font-size: 14px;
+    }
+
+    .info {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .info p {
+        font-size: 10px;
+        line-height: 14px;
+        width: 18.75rem;
+    }
+
+    .info img {
+        width: 9.0625rem;
+        height: 7.5rem;
+    }
+
+    /* 375 - Seccion Equipo */
+
+    .seccion-equipo {
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-titulo {
+        height: 10%;
+        width: 100%;
+    }
+
+    .card-titulo h2 {
+        font-size: 14px;
+    }
+
+    .card-miembros {
+        width: 100%;
+        height: 90%;
+        gap: .625rem;
+        padding: 1.25rem;
+    }
+
+    .card-miembros span {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card-miembros span div {
+        width: 250px;
+        height: 200px;
+        gap: .125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-miembros span div h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card-miembros span div p {
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .card-retrato {
+        width: 6.25rem;
+        height: 6.25rem;
+
+    }
+
+    /* 375 - Seccion Contacto */
+
+    .seccion-contacto {
+        font-size: 14px;
+        width: 100%;
+        height: 6.25rem;
+    }
+
+    .seccion-contacto h2 {
+        font-size: 14px;
+        height: 50%;
+    }
+
+    .seccion-contacto div {
+        height: 50%;
+    }
+
+    .boton-contactar {
+        padding: 7px 17px;
+    }
+
+    .boton-contactar a {
+        font-size: 12px;
+    }
+
+    /* 375 - Seccion Beneficios */
+    .seccion-beneficios {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .beneficios-titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .beneficios-titulo h2 {
+        font-size: 14px;
+    }
+
+
+    .list-ventajas {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-ventajas li {
+        font-size: 10px;
+        line-height: 14px;
+        width: 16.875rem;
+        text-align: justify;
+    }
+
+    .list-ventajas div {
+        align-self: center;
+    }
+
+    .paisaje-home2 {
+        width: 185px;
+        height: 110px;
+    }
+
+    /* 375- PAGINA CONTACTANOS */
+    .formulario {
+        height: 36.875rem;
+        grid-template-columns: repeat(4, 5rem);
+        grid-template-rows: 6.25rem 3.75rem 3.75rem 11.875rem 2.5rem 6.25rem;
+        grid-template-areas:
+            "form-titulo form-titulo form-titulo form-titulo"
+            "box-data box-data box-data box-data"
+            "box-email box-email box-email box-email"
+            "box-consulta box-consulta box-consulta box-consulta"
+            "form-suscrip form-suscrip form-suscrip form-suscrip"
+            "boton-enviar boton-enviar boton-enviar boton-enviar"
+        ;
+    }
+
+    .form-titulo h2 {
+        font-size: 1rem;
+    }
+
+    .box-data p {
+        font-size: .8125rem;
+    }
+
+    .box-data input {
+        height: 1.875rem;
+    }
+
+    .box-email p {
+        font-size: .8125rem;
+    }
+
+    .box-email input {
+        height: 1.875rem;
+    }
+
+    .box-consulta p {
+        font-size: .8125rem;
+    }
+
+    .box-consulta input {
+        height: 8.125rem;
+    }
+
+    .form-suscrip p {
+        font-size: .8125rem;
+    }
+
+    .boton-enviar input {
+        width: 7.5rem;
+        height: 2.5rem;
+        font-size: .875rem;
+    }
+
+    .ubicacion {
+        height: 24.375rem;
+        grid-template-columns: repeat(2, 9.6875rem);
+        grid-template-rows: repeat(2, 10.625rem);
+        grid-template-areas:
+            "ubicacion-title ubicacion-title"
+            "ubicacion-maps ubicacion-maps"
+        ;
+        row-gap: .625rem;
+    }
+
+    .ubicacion-title {
+        font-size: 1rem;
+    }
+
+    .ubicacion-maps {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* 375 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 5rem;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        width: 50%;
+        height: 100%;
+    }
+
+    .logo-footer a img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+
+    .redes {
+        width: 50%;
+        height: 100%;
+    }
+
+    .redes ul {
+        list-style: none;
+        gap: .9375rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-sociales {
+        height: 1.5rem;
+        width: 1.125rem;
+    }
+
+}

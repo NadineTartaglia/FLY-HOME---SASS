@@ -1,0 +1,151 @@
+/* PAGINA - GUIA PASO A PASO */
+main {
+    color: $ColorGeneral;
+    font-family: 'Montserrat', sans-serif;
+
+    div {
+        width: 100%;
+        @include flex (row, center, center);
+
+        img {
+            width: 25%;
+            height: 21.25rem;
+        }
+    }
+}
+
+.guia {
+    @include flex (column, center, center);
+
+    h2 {
+        margin-top: 1.25rem;
+        font-size: map-get($font-size-lg, v2);
+        justify-self: start;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+        padding: 1.25rem 9.375rem;
+    }
+}
+
+.guia-1-etapa {
+    margin: 1.25rem 9.375rem;
+    @include flex(column, center, start);
+    gap: 1.25rem;
+
+    span {
+        width: 40%;
+        height: 3.125rem;
+        background-color: $BackgroundPrincipal;
+        @include flex(row, center, center);
+    }
+
+
+    .part-1 {
+        @include flex(row, center, center);
+        gap: 3.125rem;
+
+        div:nth-child(1) {
+            width: 35%;
+            height: 17.5rem;
+            padding: 1.875rem 1.25rem;
+            @include flex(column, start, center);
+
+            img {
+                width: 3.125rem;
+                height: 3.125rem;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+
+        div:nth-child(2) {
+            width: 35%;
+            height: 17.5rem;
+            padding: 1.875rem 1.25rem;
+            @include flex(column, start, center);
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+
+.part-2{
+    @extend .part-1;
+}
+
+}
+
+.guia-2-etapa {
+    height: 18.75rem;
+    @include flex (column, start, start);
+    margin: 1.25rem 9.375rem;
+
+    span {
+        width: 40%;
+        height: 3.125rem;
+        @include flex(row, center, center);
+        background-color: $BackgroundPrincipal;
+    }
+
+    article {
+        width: 100%;
+        height: 75%;
+        @include flex(row, none, none);
+        gap: 1.25rem;
+        font-size: map-get($font-size-lg, v3);
+
+        div:nth-child(1) {
+            align-self: start;
+            height: 8.125rem;
+            width: 11.25rem;
+            text-align: center;
+            @include flex(column, none, none);
+        }
+
+        div:nth-child(2) {
+            align-self: center;
+            height: 8.125rem;
+            width: 11.25rem;
+            text-align: center;
+            @include flex(column, none, none);
+        }
+
+        div:nth-child(3) {
+            align-self: end;
+            height: 8.125rem;
+            width: 11.25rem;
+            text-align: center;
+            @include flex(column, none, center);
+        }
+
+        div:nth-child(4) {
+            align-self: end;
+            height: 8.125rem;
+            width: 11.25rem;
+            text-align: center;
+            @include flex (column, center, center);
+        }
+
+        div:nth-child(5) {
+            align-self: center;
+            height: 8.125rem;
+            width: 11.25rem;
+            text-align: center;
+            @include flex(column, none, center);
+        }
+
+        div:nth-child(6) {
+            align-self: start;
+            height: 8.125rem;
+            width: 11.25rem;
+            text-align: center;
+            @include flex(column, none, center);
+        }
+    }
+}
