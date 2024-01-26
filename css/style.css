@@ -51,7 +51,6 @@ header {
   .seccion-nav ul {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     height: 3.125rem;
@@ -283,33 +282,35 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center; }
-  .seccion-beneficios .beneficios-titulo {
-    height: 30%;
-    gap: .5rem; }
-    .seccion-beneficios .beneficios-titulo h2 {
-      font-size: 30px;
-      font-weight: bold;
-      text-align: center; }
-      .seccion-beneficios .beneficios-titulo h2 strong {
-        font-weight: bolder; }
-  .seccion-beneficios .list-ventajas {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
-    .seccion-beneficios .list-ventajas div {
-      align-self: center; }
-      .seccion-beneficios .list-ventajas div img {
-        width: 370px;
-        height: 220px; }
-    .seccion-beneficios .list-ventajas div {
-      align-self: center; }
-      .seccion-beneficios .list-ventajas div ul li {
-        font-size: 16px;
-        list-style: none;
-        line-height: 24px; }
+
+.beneficios-titulo {
+  height: 30%;
+  gap: .5rem; }
+  .beneficios-titulo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; }
+    .beneficios-titulo h2 strong {
+      font-weight: bolder; }
+
+.list-ventajas {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  .list-ventajas div {
+    align-self: center; }
+    .list-ventajas div img {
+      width: 370px;
+      height: 220px; }
+  .list-ventajas div {
+    align-self: center; }
+    .list-ventajas div ul li {
+      font-size: 16px;
+      list-style: none;
+      line-height: 24px; }
 
 /* PAGINA - CIUDADANIA ITALIANA */
 /* 1° - SECCION */
@@ -927,36 +928,57 @@ footer {
 /* 3.- COMPONENTES */
 /* 4.- MEDIAQ */
 @media (max-width: 1024px) {
-  /* 1024 - Navegador */
   header {
     background-color: #000000;
     width: 100%;
     height: 9.375rem; }
-  header nav {
+    header nav {
+      width: 100%;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    header .seccion-home {
+      width: 100%;
+      height: 55%;
+      margin: 0%; }
+      header .seccion-home a img {
+        width: 12.5rem;
+        height: 3.75rem; }
+    header .seccion-nav {
+      width: 100%;
+      height: 45%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      header .seccion-nav ul {
+        margin-right: 0%;
+        width: 100%; }
+        header .seccion-nav ul li {
+          width: 100%; }
+  /* 1024 - main */
+  .seccion-equipo article:nth-child(2) {
     width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center; }
-  .seccion-home {
-    width: 100%;
-    height: 55%;
-    margin: 0%; }
-  .logo-nav img {
-    width: 12.5rem;
-    height: 3.75rem; }
-  .seccion-nav {
-    width: 100%;
-    height: 45%; }
-  .pages {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0%; }
+    .seccion-equipo article:nth-child(2) span {
+      height: 10.625rem;
+      gap: .3125rem; }
+      .seccion-equipo article:nth-child(2) span div img {
+        width: 6.875rem;
+        height: 6.875rem; }
+      .seccion-equipo article:nth-child(2) span div h3 {
+        font-weight: bold;
+        font-size: 0.875rem; }
+      .seccion-equipo article:nth-child(2) span div p {
+        font-size: 0.875rem; }
   /* 1024 - footer */
-  .nav-footer {
+  footer {
     width: 100%;
     height: 9.375rem;
     background-color: #000000;
@@ -966,23 +988,23 @@ footer {
   .logo-footer {
     width: 25%;
     height: 100%; }
-  .logo-footer a img {
-    width: 12.5rem;
-    height: 3.75rem; }
+    .logo-footer a img {
+      width: 12.5rem;
+      height: 3.75rem; }
   .redes {
     width: 75%;
     height: 100%; }
-  .redes ul {
-    list-style: none;
-    gap: 2.125rem;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; }
-  .redes-sociales {
-    height: 2.25rem;
-    width: 1.6875rem; } }
+    .redes ul {
+      list-style: none;
+      gap: 2.125rem;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .redes ul li a {
+        height: 2.25rem;
+        width: 1.6875rem; } }
 
 @media (max-width: 768px) {
   /* 768 - Navegador */
