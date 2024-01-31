@@ -17,87 +17,146 @@ main {
 .guia {
     @include flex (column, center, center);
 
+    h1 {
+        position: absolute;
+        color: $ColorSecundario;
+        top: 450px;
+        font-size: 9.375rem;
+    }
+
     h2 {
-        margin-top: 1.25rem;
-        font-size: map-get($font-size-lg, v2);
+        position: relative;
+        margin-top: 3.75rem;
+        font-size: map-get($font-size-lg, v1);
         justify-self: start;
         text-align: center;
+
+        strong {
+            font-weight: bolder;
+        }
     }
 
     p {
+        margin-top: 2.5rem;
+        font-size: map-get($font-size-lg, v3);
+        line-height: 1.25rem;
         text-align: justify;
-        padding: 1.25rem 9.375rem;
+        padding: 0% 9.375rem;
     }
 }
 
 .guia-1-etapa {
-    margin: 1.25rem 9.375rem;
-    @include flex(column, center, start);
+    margin: 3.125rem 9.375rem;
     gap: 1.25rem;
 
     span {
-        width: 40%;
-        height: 3.125rem;
-        background-color: $BackgroundPrincipal;
-        @include flex(row, center, center);
-    }
 
+        h3 {
+            font-size: map-get($font-size-lg, v2);
+            background-color: $BackgroundPrincipal;
+            width: 40%;
+            height: 3.125rem;
+            @include flex(row, center, center);
 
-    .part-1 {
-        @include flex(row, center, center);
-        gap: 3.125rem;
-
-        div:nth-child(1) {
-            width: 35%;
-            height: 17.5rem;
-            padding: 1.875rem 1.25rem;
-            @include flex(column, start, center);
-
-            img {
-                width: 3.125rem;
-                height: 3.125rem;
-            }
-
-            p {
-                text-align: justify;
-            }
-        }
-
-        div:nth-child(2) {
-            width: 35%;
-            height: 17.5rem;
-            padding: 1.875rem 1.25rem;
-            @include flex(column, start, center);
-
-            p {
-                text-align: justify;
+            strong {
+                font-weight: bolder;
             }
         }
     }
+}
 
-.part-2{
+.part-1 {
+    width: 100%;
+    height: 17.5rem;
+    @include flex(row, center, center);
+    gap: 1.875rem;
+    font-size: map-get($font-size-lg, v3);
+    line-height: 1.25rem;
+
+    div:nth-child(1) {
+        width: 50%;
+        height: 100%;
+        padding: 1.875rem 1.25rem;
+        gap: 1.25rem;
+        @include flex(row, center, start);
+
+        img {
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+
+    div:nth-child(2) {
+        width: 50%;
+        height: 100%;
+        padding: 1.875rem 1.25rem;
+        gap: 1.25rem;
+        @include flex(row, center, start);
+
+        img {
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+}
+
+.card-texto {
+    height: 100%;
+    width: 21.875rem;
+    padding: 0% .625rem;
+    @include flex (column, start, start);
+    gap: .625rem;
+
+    h4 {
+        font-size: map-get($font-size-lg, v3);
+
+        strong {
+            font-weight: bolder;
+        }
+    }
+
+    p {
+        font-size: map-get($font-size-lg, v3);
+        line-height: 1.25rem;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
+
+
+.part-2 {
     @extend .part-1;
 }
 
-}
+
 
 .guia-2-etapa {
-    height: 18.75rem;
-    @include flex (column, start, start);
-    margin: 1.25rem 9.375rem;
+    height: 25rem;
+    margin: 1.25rem 9.0625rem;
 
     span {
-        width: 40%;
-        height: 3.125rem;
-        @include flex(row, center, center);
-        background-color: $BackgroundPrincipal;
+
+        h3 {
+            width: 40%;
+            height: 3.125rem;
+            font-size: map-get($font-size-lg, v2);
+            background-color: $BackgroundPrincipal;
+            @include flex(row, center, center);
+
+            strong {
+                font-weight: bolder;
+            }
+        }
     }
 
     article {
+        margin-top: 1.25rem;
         width: 100%;
         height: 75%;
         @include flex(row, none, none);
-        gap: 1.25rem;
+        gap: .9375rem;
         font-size: map-get($font-size-lg, v3);
 
         div:nth-child(1) {
@@ -106,6 +165,15 @@ main {
             width: 11.25rem;
             text-align: center;
             @include flex(column, none, none);
+
+            h4 {
+                font-size: 1rem;
+
+                strong {
+                    font-weight: bolder;
+                }
+            }
+
         }
 
         div:nth-child(2) {
@@ -114,6 +182,13 @@ main {
             width: 11.25rem;
             text-align: center;
             @include flex(column, none, none);
+            h4 {
+                font-size: 1rem;
+
+                strong {
+                    font-weight: bolder;
+                }
+            }
         }
 
         div:nth-child(3) {
@@ -122,6 +197,13 @@ main {
             width: 11.25rem;
             text-align: center;
             @include flex(column, none, center);
+            h4 {
+                font-size: 1rem;
+
+                strong {
+                    font-weight: bolder;
+                }
+            }
         }
 
         div:nth-child(4) {
@@ -130,6 +212,13 @@ main {
             width: 11.25rem;
             text-align: center;
             @include flex (column, center, center);
+            h4 {
+                font-size: 1rem;
+
+                strong {
+                    font-weight: bolder;
+                }
+            }
         }
 
         div:nth-child(5) {
@@ -138,6 +227,13 @@ main {
             width: 11.25rem;
             text-align: center;
             @include flex(column, none, center);
+            h4 {
+                font-size: 1rem;
+
+                strong {
+                    font-weight: bolder;
+                }
+            }
         }
 
         div:nth-child(6) {
@@ -146,6 +242,13 @@ main {
             width: 11.25rem;
             text-align: center;
             @include flex(column, none, center);
+            h4 {
+                font-size: 1rem;
+
+                strong {
+                    font-weight: bolder;
+                }
+            }
         }
     }
 }

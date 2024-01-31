@@ -13,7 +13,8 @@ Contacto: #f5f5f5;
 /* Banners */
 /*Titulos*/
 /* 2.- LAYOUT Y BASE */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,7 @@ Contacto: #f5f5f5;
 
 /*Typo Externa*/
 /* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Russo One', sans-serif; */
 header {
   background-color: #000000;
   width: 100%;
@@ -81,8 +83,8 @@ header {
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 40px;
-  line-height: 70px;
+  font-size: 2.5rem;
+  line-height: 4.375rem;
   text-align: left;
   width: 100%;
   height: 37.5rem;
@@ -107,7 +109,7 @@ header {
     flex-direction: column;
     justify-content: center; }
     .seccion-servicios article:nth-child(1) h2 {
-      font-size: 30px;
+      font-size: 1.25rem;
       font-weight: bold;
       text-align: center;
       height: 40%;
@@ -115,7 +117,7 @@ header {
       flex-direction: column;
       justify-content: center; }
     .seccion-servicios article:nth-child(1) p {
-      font-size: 16px;
+      font-size: 1rem;
       text-align: justify;
       line-height: 24px;
       height: 60%;
@@ -165,7 +167,7 @@ header {
     justify-content: center;
     align-items: center; }
     .seccion-elegirnos article:nth-child(1) h2 {
-      font-size: 30px;
+      font-size: 1.25rem;
       font-weight: bold;
       text-align: center; }
   .seccion-elegirnos article:nth-child(2) {
@@ -204,7 +206,7 @@ header {
     justify-content: center;
     align-items: center; }
     .seccion-equipo article:nth-child(1) h2 {
-      font-size: 30px;
+      font-size: 1.25rem;
       font-weight: bold; }
   .seccion-equipo article:nth-child(2) {
     width: 100%;
@@ -233,7 +235,7 @@ header {
         .seccion-equipo article:nth-child(2) span div h3 {
           font-weight: bold; }
         .seccion-equipo article:nth-child(2) span div p {
-          font-size: 16px;
+          font-size: 1rem;
           line-height: 24px; }
 
 /* 3- SECCION: CONTACTO */
@@ -249,7 +251,7 @@ header {
   flex-direction: column;
   justify-content: center; }
   .seccion-contacto h2 {
-    font-size: 30px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
     height: 35%;
@@ -287,7 +289,7 @@ header {
   height: 30%;
   gap: .5rem; }
   .beneficios-titulo h2 {
-    font-size: 30px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center; }
     .beneficios-titulo h2 strong {
@@ -308,7 +310,7 @@ header {
   .list-ventajas div {
     align-self: center; }
     .list-ventajas div ul li {
-      font-size: 16px;
+      font-size: 1.25rem;
       list-style: none;
       line-height: 24px; }
 
@@ -317,23 +319,26 @@ header {
 .intro-ciudadania {
   font-family: 'Montserrat', sans-serif;
   color: #000000;
-  width: 100%;
   height: 25rem;
+  margin: 0% 9.375rem;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center; }
   .intro-ciudadania article:nth-child(1) {
     height: 100%;
-    width: 40%; }
+    width: 25rem; }
     .intro-ciudadania article:nth-child(1) img {
-      width: 80%;
+      width: 100%;
       height: 100%; }
   .intro-ciudadania article:nth-child(2) {
     height: 100%;
-    width: 40%;
+    width: 34.375rem;
+    padding: .625rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    align-items: start; }
     .intro-ciudadania article:nth-child(2) h2 {
       font-size: 1.875rem;
       font-style: italic; }
@@ -341,10 +346,10 @@ header {
         font-style: normal;
         font-weight: bolder; }
     .intro-ciudadania article:nth-child(2) p {
+      font-size: 1.125rem;
+      line-height: 1.375rem;
       padding-top: 1.875rem;
-      font-size: 18px;
-      text-align: justify;
-      line-height: 25px; }
+      text-align: justify; }
 
 /* 2° - SECCION */
 .contenido-ciudadania {
@@ -352,7 +357,7 @@ header {
   color: #000000;
   width: 100%;
   height: 600px;
-  margin-top: 1.875rem; }
+  margin-top: 3.125rem; }
   .contenido-ciudadania article:nth-child(1) {
     height: 30%;
     width: 100%;
@@ -361,17 +366,22 @@ header {
     justify-content: center;
     align-items: center; }
     .contenido-ciudadania article:nth-child(1) h2 {
-      font-size: 1.875rem;
       width: 100%;
       text-align: center; }
+      .contenido-ciudadania article:nth-child(1) h2 strong {
+        font-size: 1.875rem;
+        font-weight: bolder; }
     .contenido-ciudadania article:nth-child(1) p {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      font-size: 1rem;
+      line-height: 1.25rem;
       height: 70%;
-      padding: 0% 9.375rem;
+      margin: 1.25rem 9.375rem;
       text-align: justify; }
+      .contenido-ciudadania article:nth-child(1) p strong {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
   .contenido-ciudadania article:nth-child(2) {
     height: 70%;
     width: 100%;
@@ -392,17 +402,22 @@ header {
         height: 3.125rem;
         background-color: #CEFF00;
         font-size: 1.25rem;
-        font-weight: bold;
         text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 strong {
+          font-weight: bolder; }
       .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
         font-size: 1rem;
-        line-height: 22px;
+        line-height: 1.25rem;
         text-align: justify;
-        padding-top: .625rem; }
+        padding-top: 1.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
     .contenido-ciudadania article:nth-child(2) div:nth-child(2) {
       width: 33%;
       height: 90%;
@@ -415,17 +430,18 @@ header {
         height: 3.125rem;
         background-color: #CEFF00;
         font-size: 1.25rem;
-        font-weight: bold;
         text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 strong {
+          font-weight: bolder; }
       .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
         font-size: 1rem;
-        line-height: 22px;
+        line-height: 1.25rem;
         text-align: justify;
-        padding-top: .625rem; }
+        padding-top: 1.25rem; }
 
 /* 3° - SECCION */
 .contenido-final {
@@ -439,19 +455,20 @@ header {
   justify-content: start;
   align-items: center; }
   .contenido-final h3 {
+    font-size: 1.25rem;
     width: 100%;
     height: 3.125rem;
     background-color: #f5f5f5;
     text-align: center;
-    font-size: 20px;
-    font-weight: bold;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; }
+    .contenido-final h3 strong {
+      font-weight: bolder; }
   .contenido-final p {
     font-size: 1rem;
-    line-height: 22px;
+    line-height: 1.25rem;
     text-align: justify;
     margin-top: .625rem; }
 
@@ -474,83 +491,118 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .guia h1 {
+    position: absolute;
+    color: #CEFF00;
+    top: 450px;
+    font-size: 9.375rem; }
   .guia h2 {
-    margin-top: 1.25rem;
+    position: relative;
+    margin-top: 3.75rem;
     font-size: 1.875rem;
     justify-self: start;
     text-align: center; }
+    .guia h2 strong {
+      font-weight: bolder; }
   .guia p {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
     text-align: justify;
-    padding: 1.25rem 9.375rem; }
+    padding: 0% 9.375rem; }
 
 .guia-1-etapa {
-  margin: 1.25rem 9.375rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  margin: 3.125rem 9.375rem;
   gap: 1.25rem; }
-  .guia-1-etapa span {
+  .guia-1-etapa span h3 {
+    font-size: 1.25rem;
+    background-color: #CEFF00;
     width: 40%;
     height: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .guia-1-etapa span h3 strong {
+      font-weight: bolder; }
+
+.part-1, .part-2 {
+  width: 100%;
+  height: 17.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+  font-size: 1rem;
+  line-height: 1.25rem; }
+  .part-1 div:nth-child(1), .part-2 div:nth-child(1) {
+    width: 50%;
+    height: 100%;
+    padding: 1.875rem 1.25rem;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start; }
+    .part-1 div:nth-child(1) img, .part-2 div:nth-child(1) img {
+      width: 3.125rem;
+      height: 3.125rem; }
+  .part-1 div:nth-child(2), .part-2 div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    padding: 1.875rem 1.25rem;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start; }
+    .part-1 div:nth-child(2) img, .part-2 div:nth-child(2) img {
+      width: 3.125rem;
+      height: 3.125rem; }
+
+.card-texto {
+  height: 100%;
+  width: 21.875rem;
+  padding: 0% .625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: .625rem; }
+  .card-texto h4 {
+    font-size: 1rem; }
+    .card-texto h4 strong {
+      font-weight: bolder; }
+  .card-texto p {
+    font-size: 1rem;
+    line-height: 1.25rem; }
+  .card-texto p {
+    text-align: justify; }
+
+.guia-2-etapa {
+  height: 25rem;
+  margin: 1.25rem 9.0625rem; }
+  .guia-2-etapa span h3 {
+    width: 40%;
+    height: 3.125rem;
+    font-size: 1.25rem;
     background-color: #CEFF00;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; }
-  .guia-1-etapa .part-1, .guia-1-etapa .part-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3.125rem; }
-    .guia-1-etapa .part-1 div:nth-child(1), .guia-1-etapa .part-2 div:nth-child(1) {
-      width: 35%;
-      height: 17.5rem;
-      padding: 1.875rem 1.25rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: center; }
-      .guia-1-etapa .part-1 div:nth-child(1) img, .guia-1-etapa .part-2 div:nth-child(1) img {
-        width: 3.125rem;
-        height: 3.125rem; }
-      .guia-1-etapa .part-1 div:nth-child(1) p, .guia-1-etapa .part-2 div:nth-child(1) p {
-        text-align: justify; }
-    .guia-1-etapa .part-1 div:nth-child(2), .guia-1-etapa .part-2 div:nth-child(2) {
-      width: 35%;
-      height: 17.5rem;
-      padding: 1.875rem 1.25rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: center; }
-      .guia-1-etapa .part-1 div:nth-child(2) p, .guia-1-etapa .part-2 div:nth-child(2) p {
-        text-align: justify; }
-
-.guia-2-etapa {
-  height: 18.75rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  margin: 1.25rem 9.375rem; }
-  .guia-2-etapa span {
-    width: 40%;
-    height: 3.125rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #CEFF00; }
+    .guia-2-etapa span h3 strong {
+      font-weight: bolder; }
   .guia-2-etapa article {
+    margin-top: 1.25rem;
     width: 100%;
     height: 75%;
     display: flex;
     flex-direction: row;
     justify-content: none;
     align-items: none;
-    gap: 1.25rem;
+    gap: .9375rem;
     font-size: 1rem; }
     .guia-2-etapa article div:nth-child(1) {
       align-self: start;
@@ -561,6 +613,10 @@ main {
       flex-direction: column;
       justify-content: none;
       align-items: none; }
+      .guia-2-etapa article div:nth-child(1) h4 {
+        font-size: 1rem; }
+        .guia-2-etapa article div:nth-child(1) h4 strong {
+          font-weight: bolder; }
     .guia-2-etapa article div:nth-child(2) {
       align-self: center;
       height: 8.125rem;
@@ -570,6 +626,10 @@ main {
       flex-direction: column;
       justify-content: none;
       align-items: none; }
+      .guia-2-etapa article div:nth-child(2) h4 {
+        font-size: 1rem; }
+        .guia-2-etapa article div:nth-child(2) h4 strong {
+          font-weight: bolder; }
     .guia-2-etapa article div:nth-child(3) {
       align-self: end;
       height: 8.125rem;
@@ -579,6 +639,10 @@ main {
       flex-direction: column;
       justify-content: none;
       align-items: center; }
+      .guia-2-etapa article div:nth-child(3) h4 {
+        font-size: 1rem; }
+        .guia-2-etapa article div:nth-child(3) h4 strong {
+          font-weight: bolder; }
     .guia-2-etapa article div:nth-child(4) {
       align-self: end;
       height: 8.125rem;
@@ -588,6 +652,10 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
+      .guia-2-etapa article div:nth-child(4) h4 {
+        font-size: 1rem; }
+        .guia-2-etapa article div:nth-child(4) h4 strong {
+          font-weight: bolder; }
     .guia-2-etapa article div:nth-child(5) {
       align-self: center;
       height: 8.125rem;
@@ -597,6 +665,10 @@ main {
       flex-direction: column;
       justify-content: none;
       align-items: center; }
+      .guia-2-etapa article div:nth-child(5) h4 {
+        font-size: 1rem; }
+        .guia-2-etapa article div:nth-child(5) h4 strong {
+          font-weight: bolder; }
     .guia-2-etapa article div:nth-child(6) {
       align-self: start;
       height: 8.125rem;
@@ -606,6 +678,10 @@ main {
       flex-direction: column;
       justify-content: none;
       align-items: center; }
+      .guia-2-etapa article div:nth-child(6) h4 {
+        font-size: 1rem; }
+        .guia-2-etapa article div:nth-child(6) h4 strong {
+          font-weight: bolder; }
 
 /* PAGINA - ASISTENCIA AL VIAJERO */
 .contenedor-asistencia {
@@ -622,8 +698,8 @@ main {
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 40px;
-  line-height: 70px;
+  font-size: 2.5rem;
+  line-height: 4.375rem;
   text-align: left;
   grid-column: 1 / 9;
   grid-row: 1 / 6;
@@ -631,10 +707,11 @@ main {
   flex-direction: column;
   justify-content: center;
   padding-left: 6.25rem; }
-
-.banner-asistencia img {
-  width: 100%;
-  height: 100%; }
+  .banner-asistencia h1 i {
+    font-family: 'Russo One', sans-serif; }
+  .banner-asistencia img {
+    width: 10.625rem;
+    height: 12.5rem; }
 
 .asistencia-intro {
   grid-column: 2 / 8;
@@ -882,7 +959,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     background-color: #000000;
     color: #ffffff;
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     grid-area: ubicacion-title;
     display: flex;
     justify-content: center;
@@ -895,14 +972,18 @@ main {
 footer {
   width: 100%;
   height: 9.375rem;
+  font-family: 'Montserrat', sans-serif;
   background-color: #000000;
   display: flex;
-  flex-wrap: wrap; }
+  flex-direction: row;
+  justify-content: none;
+  align-items: none; }
 
 .logo-footer {
   width: 25%;
   height: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
   .logo-footer a img {
@@ -911,19 +992,25 @@ footer {
 
 .redes {
   height: 100%;
-  width: 75%; }
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 4.375rem; }
   .redes ul {
     list-style: none;
     gap: 2.125rem;
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 4.375rem; }
+    flex-direction: row;
+    justify-content: none;
+    align-items: none; }
     .redes ul li a img {
       height: 36px;
       width: 1.875rem; }
+  .redes p {
+    font-size: .75rem;
+    color: white; }
 
 /* 3.- COMPONENTES */
 /* 4.- MEDIAQ */
