@@ -1,13 +1,14 @@
 /* PAGINA - CONTACTANOS */
 
 .formulario {
+    background-color: $BackgroundPrincipal;
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    width: 100%;
+    color: $ColorGeneral;
     height: 43.75rem;
+    margin: 1.875rem 9.375rem;
     display: grid;
     grid-template-columns: repeat(4, 15.625rem);
-    grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 9.375rem;
+    grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 6.25rem;
     grid-template-areas:
         "form-titulo form-titulo form-titulo form-titulo"
         "box-data box-data box-email box-email"
@@ -17,111 +18,119 @@
     ;
     justify-content: center;
     align-content: center;
+    row-gap: .625rem;
+}
 
+.form-titulo {
+    background-color: $BackgroundPrincipal;
+    grid-area: form-titulo;
+    width: 100%;
+    height: 100%;
+    @include flex (row, center, center);
 
-    .form-titulo {
-        background-color: $BackgroundPrincipal;
-        grid-area: form-titulo;
-        width: 100%;
-        height: 100%;
-        @include flex (row, center, center);
-    }
+    h2 {
+        font-size: map-get($font-size-lg, v1);
 
-    .box-data {
-        background-color: $BackgroundPrincipal;
-        grid-area: box-data;
-        width: 100%;
-        height: 100%;
-        @include flex (column, center, center);
-        gap: .625rem;
-        padding: 0% 3.125rem;
-
-        p {
-            text-align: left;
-            width: 18.75rem;
-        }
-
-        input {
-            height: 2.5rem;
-            width: 18.75rem;
+        strong {
+            font-weight: bolder;
         }
     }
+}
 
+.box-data {
+    grid-area: box-data;
+    width: 100%;
+    height: 100%;
+    @include flex (column, center, center);
+    gap: .625rem;
 
-    .box-email {
-        background-color: $BackgroundPrincipal;
-        grid-area: box-email;
-        width: 100%;
-        height: 100%;
-        @include flex (column, center, center);
-        gap: .625rem;
-        padding: 0% 3.125rem;
-
-        p {
-            text-align: left;
-            width: 18.75rem;
-        }
-
-        input {
-            height: 2.5rem;
-            width: 18.75rem;
-        }
+    p {
+        text-align: left;
+        width: 18.75rem;
     }
 
+    input {
+        font-family: 'Montserrat', sans-serif;
+        font-size: map-get($font-size-lg, v3);
+        Color: $ColorGeneral;
+        height: 2.5rem;
+        width: 18.75rem;
+    }
+}
 
-    .box-consulta {
-        background-color: $BackgroundPrincipal;
-        grid-area: box-consulta;
-        width: 100%;
-        height: 100%;
-        @include flex (column, center, center);
-        gap: .625rem;
-        padding: 0% 3.125rem;
+.box-email {
+    grid-area: box-email;
+    width: 100%;
+    height: 100%;
+    @include flex (column, center, center);
+    gap: .625rem;
 
-        p {
-            width: 43.75rem;
-            text-align: left;
-        }
-
-        input {
-            height: 9.375rem;
-            width: 43.75rem;
-        }
+    p {
+        text-align: left;
+        width: 18.75rem;
     }
 
+    input {
+        font-family: 'Montserrat', sans-serif;
+        font-size: map-get($font-size-lg, v3);
+        Color: $ColorGeneral;
+        height: 2.5rem;
+        width: 18.75rem;
+    }
+}
 
-    .form-suscrip {
-        background-color: $BackgroundPrincipal;
-        grid-area: form-suscrip;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        gap: .625rem;
-        padding: 0% 3.125rem;
+.box-consulta {
+    grid-area: box-consulta;
+    width: 100%;
+    height: 100%;
+    @include flex (column, center, center);
+    gap: .625rem;
+
+    p {
+        width: 50rem;
+        text-align: left;
     }
 
-    .boton-enviar {
-        background-color: $BackgroundPrincipal;
-        grid-area: boton-enviar;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    textarea {
+        height: 9.375rem;
+        width: 50rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: map-get($font-size-lg, v3);
+        Color: $ColorGeneral;
+    }
+}
 
-        input {
-            font-family: 'Montserrat', sans-serif;
-            background-color: $BackgroundSecundario;
-            color: #ffffff;
-            text-decoration: none;
-            border: none;
-            width: 8.125rem;
-            height: 2.5rem;
-            border-radius: .625rem;
-        }
+.form-suscrip {
+    grid-area: form-suscrip;
+    width: 100%;
+    height: 100%;
+    @include flex (row, start, center);
+    gap: .625rem;
+    padding: 0% 6.25rem;
+}
 
+.boton-enviar {
+    grid-area: boton-enviar;
+    width: 100%;
+    height: 100%;
+    @include flex (row, center, center);
+
+    input {
+        font-family: 'Montserrat', sans-serif;
+        background-color: $BackgroundSecundario;
+        font-size: map-get($font-size-lg , v3);
+        color: #ffffff;
+        text-decoration: none;
+        border: none;
+        width: 8.125rem;
+        height: 2.5rem;
+        border-radius: .625rem;
+    }
+
+    input:hover {
+        background-color: #000000;
+        box-shadow: 0 0 .3125rem #000000;
+        transition: all 0.2s ease;
     }
 }
 
@@ -139,21 +148,23 @@
     justify-content: center;
     align-content: center;
     column-gap: .625rem;
+}
 
-    .ubicacion-title {
-        font-family: 'Montserrat', sans-serif;
-        background-color: $BackgroundSecundario;
-        color: #ffffff;
-        font-size: map-get($font-size-lg, v2);
-        grid-area: ubicacion-title;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+.ubicacion-title {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $BackgroundSecundario;
+    color: #ffffff;
+    font-size: map-get($font-size-lg, v1);
+    grid-area: ubicacion-title;
+    @include flex (row, center, center);
+    text-align: center;
 
-    .ubicacion-maps {
-        grid-area: ubicacion-maps;
-        width: 100%;
+    strong {
+        font-weight: border;
     }
+}
+
+.ubicacion-maps {
+    grid-area: ubicacion-maps;
+    width: 100%;
 }

@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
     color: $ColorBanner;
     font-size: $FontSizeBanner;
-    line-height: $LineHeightBanner;
+    line-height: 6.25rem;
     text-align: left;
     width: 100%;
     height: 37.5rem;
@@ -22,44 +22,40 @@
 .seccion-servicios {
     font-family: 'Montserrat', sans-serif;
     color: $ColorGeneral;
-    width: 100%;
     height: 25rem;
-    display: flex;
-    flex-direction: column;
+    margin: 1.875rem 9.375rem 1.25rem 9.375rem;
+    @include flex (column, none, none);
 
     article:nth-child(1) {
         width: 100%;
         height: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex (column, center, center);
+        gap: 1.25rem;
 
         h2 {
-            font-size: map-get($font-size-lg, v2 );
-            font-weight: bold;
+            font-size: map-get($font-size-lg, v1);
             text-align: center;
             height: 40%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex (column, center, center);
+
+            strong {
+                font-weight: bolder;
+            }
         }
 
         p {
-            font-size: map-get($font-size-lg, v3 );
+            font-size: map-get($font-size-lg, v3);
             text-align: justify;
-            line-height: 24px;
+            line-height: 1.25rem;
             height: 60%;
-            padding: 0% 6.25rem;
+            padding: 0% .3125rem;
         }
     }
 
     article:nth-child(2) {
         width: 100%;
         height: 60%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+        @include flex (row, space-evenly, center);
 
         div {
             width: 13.75rem;
@@ -96,40 +92,46 @@
     color: $ColorGeneral;
     background-color: $BackgroundPrincipal;
     width: 100%;
-    height: 25rem;
+    height: 31.25rem;
+    margin: 1.875rem 0% .625rem 0%;
     @include flex (column, center, center);
 
     article:nth-child(1) {
-        height: 30%;
+        height: 25%;
         gap: .5rem;
         @include flex (column, center, center);
 
         h2 {
-            font-size: map-get($font-size-lg, v2);
-            font-weight: bold;
+            font-size: map-get($font-size-lg, v1);
             text-align: center;
+
+            strong {
+                font-weight: bolder;
+            }
         }
     }
 
     article:nth-child(2) {
         width: 100%;
-        height: 70%;
+        height: 65%;
+        padding: .625rem 9.375rem;
         @include flex (row, center, center);
+        gap: 3.125rem;
 
         div {
             p {
                 font-size: map-get($font-size-lg, v3);
                 text-align: justify;
-                line-height: 24px;
-                width: 43.75rem;
-                padding: 3.125rem;
+                line-height: 1.25rem;
+                width: 40.625rem;
+                padding: .625rem;
             }
         }
 
         div {
             img {
-                width: 290px;
-                height: 240px;
+                width: 19.375rem;
+                height: 16.25rem;
             }
         }
     }
@@ -140,9 +142,8 @@
 .seccion-equipo {
     font-family: 'Montserrat', sans-serif;
     color: $ColorGeneral;
-    width: 100%;
     height: 25rem;
-    display: flex;
+    margin: 1.25rem 6.25rem;
     @include flex (column, center, center);
 
     article:nth-child(1) {
@@ -151,47 +152,39 @@
         @include flex (row, center, center);
 
         h2 {
-            font-size: map-get($font-size-lg, v2);
-            font-weight: bold;
+            font-size: map-get($font-size-lg, v1);
+
+            strong {
+                font-weight: bolder;
+            }
         }
     }
 
     article:nth-child(2) {
         width: 100%;
+        ;
         height: 80%;
-        padding: 3.125rem 6.25rem;
-        display: flex;
-        flex-direction: row;
+        padding: 3.125rem 0%;
+        @include flex (row, space-evenly, center);
 
         span {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            gap: 1.25rem;
+            @include flex (row, center, center);
+            gap: .3125rem;
 
             div {
-                width: 300px;
-                height: 250px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: .3125rem;
+                width: 17.5rem;
+                height: 15.625rem;
+                @include flex (column, center, center);
+                gap: .625rem;
 
                 img {
                     width: 10.625rem;
                     height: 10.625rem;
                 }
 
-                h3 {
-                    font-weight: bold;
-                }
-
                 p {
                     font-size: map-get($font-size-lg, v3);
-                    line-height: 24px;
+                    line-height: 1.25rem;
                 }
             }
         }
@@ -201,101 +194,129 @@
 /* 3- SECCION: CONTACTO */
 
 .seccion-contacto {
-    background-color: #f5f5f5;
+    background-color: $BackgroundTerciario;
     font-family: 'Montserrat', sans-serif;
     color: $ColorGeneral;
-    font-weight: bold;
     text-align: center;
     width: 100%;
-    height: 12.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 15.625rem;
+    @include flex (column, center, center);
 
     h2 {
-        font-size: map-get($font-size-lg, v2);
-        font-weight: bold;
+        font-size: map-get($font-size-lg, v1);
         text-align: center;
-        height: 35%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 65%;
-
-        button {
-            background-color: #000000;
-            border: none;
-            border-radius: .625rem;
-            padding: .9375rem 1.5625rem;
-
-            a {
-                font-family: 'Montserrat', sans-serif;
-                font-size: 20px;
-                color: #CFFF00;
-                font-weight: bold;
-                text-decoration: none;
-            }
-        }
-    }
-}
-
-/* 4 - SECCION: BENEFICIOS */
-.seccion-beneficios {
-    font-family: 'Montserrat', sans-serif;
-    color: $ColorGeneral;
-    width: 100%;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.beneficios-titulo {
-    height: 30%;
-    gap: .5rem;
-
-    h2 {
-        font-size: map-get($font-size-lg, v2);
-        font-weight: bold;
-        text-align: center;
+        height: 50%;
+        @include flex (row, center, center);
 
         strong {
             font-weight: bolder;
         }
     }
-}
-
-.list-ventajas {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
 
     div {
-        align-self: center;
+        @include flex (row, center, start);
+        height: 50%;
 
-        img {
-            width: 370px;
-            height: 220px;
+        a {
+            font-family: 'Montserrat', sans-serif;
+            font-size: map-get($font-size-lg, v3);
+            font-weight: bold;
+            text-decoration: none;
+            color: $ColorSecundario;
+            background-color: $BackgroundSecundario;
+            border: 2px solid $ColorGeneral;
+            padding: .9375rem 1.5625rem;
+            border-radius: .625rem;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        a:hover {
+            font-size: map-get($font-size-lg, v3);
+            color: $ColorGeneral;
+            font-weight: bold;
+        }
+
+        a::after {
+            content: "";
+            background-color: $BackgroundPrincipal;
+            position: absolute;
+            z-index: -1;
+            padding: .9375rem 1.5625rem;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: -100%;
+            right: 100%;
+            -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+        }
+
+        a:hover::after {
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+        }
+    }
+}
+
+
+/* 4 - SECCION: BENEFICIOS */
+.seccion-beneficios {
+    font-family: 'Montserrat', sans-serif;
+    color: $ColorGeneral;
+    margin: 1.25rem 9.375rem;
+    height: 26.875rem;
+    @include flex (column, center, center);
+
+    article:nth-child(1) {
+        width: 100%;
+        height: 30%;
+        gap: .5rem;
+        text-align: center;
+        @include flex (column, center, center);
+
+        h2 {
+            font-size: map-get($font-size-lg, v1);
+
+            strong {
+                font-weight: bolder;
+            }
         }
     }
 
-    div {
-        align-self: center;
+    article:nth-child(2) {
+        width: 100%;
+        height: 70%;
+        @include flex (row, space-evenly, center);
+        gap: 3.125rem;
 
-        ul {
-            li {
-                font-size: map-get($font-size-lg, v2);
-                list-style: none;
-                line-height: 24px;
+        div:nth-child(1) {
+            height: 100%;
+            width: 25rem;
+
+            img {
+                width: 25rem;
+                height: 220px;
+            }
+        }
+
+        div:nth-child(2) {
+            height: 100%;
+            width: 33.125rem;
+            align-self: center;
+
+            ul {
+                li {
+                    font-size: map-get($font-size-lg, v3);
+                    list-style: none;
+                    line-height: 20px;
+                }
             }
         }
     }

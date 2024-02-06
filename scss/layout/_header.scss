@@ -33,6 +33,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+
     ul {
         width: 100%;
         display: flex;
@@ -46,25 +47,51 @@ header {
             list-style-type: none;
 
             a {
-
                 color: #ffffff;
                 font-weight: normal;
                 text-decoration: none;
-
-                button {
-
-                    background-color: $BackgroundPrincipal;
-                    font-family: 'Montserrat', sans-serif;
-                    color: #000000;
-                    font-size: 20px;
-                    font-weight: bold;
-                    border: none;
-                    border-radius: 10px;
-                    width: 12.5rem;
-                    height: 2.1875rem;
-                    list-style-type: none;
-                }
             }
         }
     }
+}
+
+.boton-nav {
+    background-color: $BackgroundSecundario;
+    border: 2px solid $ColorSecundario;
+    padding: .625rem 1.25rem;
+    border-radius: .625rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.boton-nav:hover {
+    color: $ColorGeneral;
+    font-weight: bold;
+    /* color de fuente hover */
+}
+
+.boton-nav::after {
+    content: "";
+    background-color: $BackgroundPrincipal;
+    position: absolute;
+    z-index: -1;
+    padding: .625rem 1.25rem;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.boton-nav:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
 }

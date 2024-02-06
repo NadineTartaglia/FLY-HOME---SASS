@@ -20,7 +20,7 @@ main {
     h1 {
         position: absolute;
         color: $ColorSecundario;
-        top: 450px;
+        top: 28.25rem;
         font-size: 9.375rem;
     }
 
@@ -131,122 +131,138 @@ main {
 }
 
 
-
 .guia-2-etapa {
     height: 25rem;
-    margin: 1.25rem 9.0625rem;
+    margin: 1.25rem 0%;
 
-    span {
-
+    article:nth-child(1) {
+        margin: 0% 9.375rem;
+        
         h3 {
             width: 40%;
             height: 3.125rem;
             font-size: map-get($font-size-lg, v2);
             background-color: $BackgroundPrincipal;
             @include flex(row, center, center);
-
+            
             strong {
                 font-weight: bolder;
             }
         }
     }
 
-    article {
+    article:nth-child(2) {
         margin-top: 1.25rem;
         width: 100%;
         height: 75%;
-        @include flex(row, none, none);
-        gap: .9375rem;
-        font-size: map-get($font-size-lg, v3);
+        @include flex(column, center, center);
+        gap: .5rem;
 
-        div:nth-child(1) {
-            align-self: start;
-            height: 8.125rem;
-            width: 11.25rem;
-            text-align: center;
-            @include flex(column, none, none);
-
-            h4 {
-                font-size: 1rem;
-
-                strong {
-                    font-weight: bolder;
-                }
-            }
-
-        }
-
-        div:nth-child(2) {
-            align-self: center;
-            height: 8.125rem;
-            width: 11.25rem;
-            text-align: center;
-            @include flex(column, none, none);
-            h4 {
-                font-size: 1rem;
-
-                strong {
-                    font-weight: bolder;
-                }
+        span:nth-child(1) {
+            
+            img {
+                width: 62.5rem;
+                height: 1.0625rem;
             }
         }
 
-        div:nth-child(3) {
-            align-self: end;
-            height: 8.125rem;
-            width: 11.25rem;
-            text-align: center;
-            @include flex(column, none, center);
-            h4 {
-                font-size: 1rem;
+        span:nth-child(2) {
+            @include flex(row, none, none);
+            gap: 1.0625rem;
 
-                strong {
-                    font-weight: bolder;
+            div:nth-child(1) {
+                height: 8.75rem;
+                width: 11.25rem;
+                text-align: center;
+                @include flex(column, center, center);
+                gap: .3125rem;
+
+                p {
+                    font-size: map-get($font-size-lg, v3);
+
+                    strong {
+                        font-weight: bolder;
+                    }
                 }
             }
-        }
 
-        div:nth-child(4) {
-            align-self: end;
-            height: 8.125rem;
-            width: 11.25rem;
-            text-align: center;
-            @include flex (column, center, center);
-            h4 {
-                font-size: 1rem;
+            div:nth-child(2) {
+                height: 8.75rem;
+                width: 11.25rem;
+                text-align: center;
+                @include flex(column, center, center);
+                gap: .3125rem;
 
-                strong {
-                    font-weight: bolder;
+                p {
+                    font-size: map-get($font-size-lg, v3);
+
+                    strong {
+                        font-weight: bolder;
+                    }
                 }
             }
-        }
 
-        div:nth-child(5) {
-            align-self: center;
-            height: 8.125rem;
-            width: 11.25rem;
-            text-align: center;
-            @include flex(column, none, center);
-            h4 {
-                font-size: 1rem;
+            div:nth-child(3) {
+                height: 8.75rem;
+                width: 11.25rem;
+                text-align: center;
+                @include flex(column, center, center);
+                gap: .3125rem;
 
-                strong {
-                    font-weight: bolder;
+                p {
+                    font-size: map-get($font-size-lg, v3);
+
+                    strong {
+                        font-weight: bolder;
+                    }
                 }
             }
-        }
 
-        div:nth-child(6) {
-            align-self: start;
-            height: 8.125rem;
-            width: 11.25rem;
-            text-align: center;
-            @include flex(column, none, center);
-            h4 {
-                font-size: 1rem;
+            div:nth-child(4) {
+                height: 8.75rem;
+                width: 11.25rem;
+                text-align: center;
+                @include flex(column, center, center);
+                gap: .3125rem;;
 
-                strong {
-                    font-weight: bolder;
+                p {
+                    font-size: map-get($font-size-lg, v3);
+
+                    strong {
+                        font-weight: bolder;
+                    }
+                }
+            }
+
+            div:nth-child(5) {
+                height: 8.75rem;
+                width: 11.25rem;
+                text-align: center;
+                @include flex(column, center, center);
+                gap: .3125rem;
+
+                p {
+                    font-size: map-get($font-size-lg, v3);
+
+                    strong {
+                        font-weight: bolder;
+                    }
+                }
+            }
+
+            div:nth-child(6) {
+                height: 8.75rem;
+                width: 11.25rem;
+                text-align: center;
+                @include flex(column, center, center);
+                gap: .3125rem;
+
+                p {
+                    font-size: map-get($font-size-lg, v3);
+
+                    strong {
+                        font-weight: bolder;
+                    }
                 }
             }
         }
