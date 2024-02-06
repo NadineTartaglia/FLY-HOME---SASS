@@ -1,5 +1,6 @@
 @media (max-width: 1024px) {
 
+    /* 1024 - header */
     header {
         background-color: #000000;
         width: 100%;
@@ -9,63 +10,134 @@
             width: 100%;
             height: 100%;
             font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            font-size: 1rem;
+            @include flex (column, center, center);
         }
+    }
 
+    .seccion-home {
+        width: 100%;
+        height: 55%;
+        margin: 0%;
 
-        .seccion-home {
+        a {
+            img {
+                width: 12.5rem;
+                height: 3.75rem;
+            }
+        }
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 45%;
+        @include flex (row, space-evenly, center);
+        margin: 0% 1.875rem;
+
+        ul {
+            margin-right: 0%;
             width: 100%;
-            height: 55%;
-            margin: 0%;
+            height: 3.125rem;
 
-            a {
-                img {
-                    width: 12.5rem;
-                    height: 3.75rem;
-                }
+            li {
+                width: 13.75rem;
+            }
+        }
+    }
+
+    .boton-nav {
+        padding: .625rem 1rem;
+    }
+
+    .banner-principal {
+        font-size: 2.3125rem;
+        padding-left: 4.6875rem;
+    }
+
+    /* 1024 - main ciudadania italiana */
+    .seccion-servicios {
+
+        article:nth-child(1) {
+
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+
+            p {
+                font-size: map-get($font-size-md, v3);
             }
         }
 
-        .seccion-nav {
-            width: 100%;
-            height: 45%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+        article:nth-child(2) {
 
-            ul {
-                margin-right: 0%;
-                width: 100%;
+            div {
+                width: 12.5rem;
+                height: 10.625rem;
 
-                li {
-                    width: 100%;
+                img {
+                    width: 6.25rem;
+                    height: 6.25rem;
+                }
+
+                h4 {
+                    font-size: 12px;
                 }
             }
         }
     }
 
-    /* 1024 - main */
-    .seccion-equipo {
+    .seccion-elegirnos {
+
+        article:nth-child(1) {
+
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+        }
+
         article:nth-child(2) {
-            width: 100%;
-            height: 80%;
+
+            div {
+                width: 34.375rem;
+
+                p {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+
+            div {
+                img {
+                    width: 15.5rem;
+                    height: 13rem;
+                }
+            }
+        }
+    }
+
+    .seccion-equipo {
+        margin: .625rem 6.25rem;
+        height: 31.25rem;
+
+        article:nth-child(1) {
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+        }
+
+        article:nth-child(2) {
             @include flex (column, center, center);
+            gap: 1.875rem;
+
             span {
                 height: 10.625rem;
                 gap: .3125rem;
-                
-                div {
-                    img {
-                        width: 6.875rem;
-                        height: 6.875rem;
-                    }
 
-                    h3 {
-                        font-weight: bold;
-                        font-size: map-get($font-size-md, v3);
+                div {
+                    gap: .3125rem;
+
+                    img {
+                        width: 8.4375rem;
+                        height: 8.4375rem;
                     }
 
                     p {
@@ -76,19 +148,557 @@
         }
     }
 
-    /* 1024 - footer */
+    .seccion-contacto {
+        height: 12.5rem;
 
-    footer {
-        width: 100%;
-        height: 9.375rem;
-        background-color: #000000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        h2 {
+            font-size: map-get($font-size-md, v1);
+        }
+
+        div {
+
+            a {
+                font-size: map-get($font-size-md, v3);
+                padding: .75rem 1.25rem;
+            }
+        }
     }
 
+    .seccion-beneficios {
+        height: 25rem;
+        margin: 1.25rem 7.5rem;
+
+        article:nth-child(1) {
+
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+        }
+
+        article:nth-child(2) {
+            gap: 2.5rem;
+
+            div:nth-child(1) {
+
+                img {
+                    width: 20rem;
+                    height: 11rem;
+                }
+            }
+
+            div:nth-child(2) {
+
+                ul {
+                    li {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+            }
+        }
+    }
+
+    /* 1024 - main ciudadania italiana */
+    .intro-ciudadania {
+        margin: 0% 8.125rem;
+        height: 21.875rem;
+        gap: 3.125rem;
+
+        article:nth-child(1) {
+            img {
+                width: 19rem;
+                height: 20rem;
+            }
+        }
+
+        article:nth-child(2) {
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.3125rem;
+            }
+        }
+    }
+
+    .contenido-ciudadania {
+        width: 100%;
+        height: 40.625rem;
+        margin-top: 2.5rem;
+
+        article:nth-child(1) {
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+
+            p {
+                font-size: map-get($font-size-md, v3);
+            }
+        }
+
+        article:nth-child(2) {
+
+            div:nth-child(1) {
+
+                h3 {
+                    width: 100%;
+                    height: 3.125rem;
+                    font-size: map-get($font-size-md, v2);
+                }
+
+                p {
+                    font-size: map-get($font-size-md, v3);
+                    ;
+                }
+            }
+
+            div:nth-child(2) {
+                h3 {
+                    font-size: map-get($font-size-md, v2);
+                }
+
+                p {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+        }
+    }
+
+    .contenido-final {
+        h3 {
+            font-size: map-get($font-size-md, v2);
+        }
+
+        p {
+            font-size: map-get($font-size-md, v3);
+        }
+    }
+
+    /* 1024 - main guia paso a paso */
+
+    main {
+
+        div {
+
+            img {
+                width: 25%;
+                height: 17rem;
+            }
+        }
+    }
+
+    .guia {
+
+        h1 {
+            top: 24.25rem;
+            font-size: 8.4375rem;
+        }
+
+        h2 {
+            font-size: map-get($font-size-md, v1);
+        }
+
+        p {
+            font-size: map-get($font-size-md, v3);
+        }
+    }
+
+    .guia-1-etapa {
+        span {
+            h3 {
+                font-size: map-get($font-size-md, v2);
+            }
+        }
+    }
+
+    .part-1 {
+        width: 100%;
+        height: 20.625rem;
+        font-size: map-get($font-size-md, v3);
+
+        div:nth-child(1) {
+
+            img {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+
+        div:nth-child(2) {
+            img {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+    }
+
+    .card-texto {
+        h4 {
+            font-size: map-get($font-size-md, v3);
+        }
+
+        p {
+            font-size: map-get($font-size-md, v3);
+        }
+    }
+
+
+    .guia-2-etapa {
+        height: 62.5rem;
+        margin: 1.25rem 0%;
+
+        article:nth-child(1) {
+            height: 5%;
+
+            h3 {
+                font-size: map-get($font-size-md, v2);
+            }
+        }
+
+        article:nth-child(2) {
+            transform: rotate(-90deg);
+            width: 100%;
+            height: 95%;
+            gap: 5rem;
+
+            span:nth-child(1) {
+
+                img {
+                    width: 50rem;
+                    height: .875rem;
+                }
+            }
+
+            span:nth-child(2) {
+                @include flex(row, center, center);
+                width: 59.375rem;
+                height: 6.25rem;
+                gap: .3125rem;
+
+                div:nth-child(1) {
+                    transform: rotate(90deg);
+                    order: 6;
+                    height: 6.25rem;
+                    width: 11.25rem;
+                    gap: .125rem;
+
+                    p {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+
+                div:nth-child(2) {
+                    transform: rotate(90deg);
+                    order: 5;
+                    height: 6.25rem;
+                    width: 11.25rem;
+                    gap: .125rem;
+
+                    p {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+
+                div:nth-child(3) {
+                    transform: rotate(90deg);
+                    order: 4;
+                    height: 6.25rem;
+                    width: 11.25rem;
+                    gap: .125rem;
+
+                    p {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+
+                div:nth-child(4) {
+                    transform: rotate(90deg);
+                    order: 3;
+                    height: 6.25rem;
+                    width: 11.25rem;
+                    gap: .125rem;
+
+                    p {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+
+                div:nth-child(5) {
+                    transform: rotate(90deg);
+                    order: 2;
+                    height: 6.25rem;
+                    width: 11.25rem;
+                    gap: .125rem;
+
+                    p {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+
+                div:nth-child(6) {
+                    transform: rotate(90deg);
+                    order: 1;
+                    height: 6.25rem;
+                    width: 11.25rem;
+                    gap: .125rem;
+
+                    p {
+                        font-size: map-get($font-size-md, v3);
+                    }
+                }
+            }
+        }
+    }
+
+    /* 1024 - main asistencia al viajero */
+    .banner-asistencia {
+        font-size: 2.3125rem;
+        line-height: $LineHeightBanner2;
+
+        img {
+            width: 8.5rem;
+            height: 10rem;
+        }
+    }
+
+    .asistencia-intro {
+
+        div:nth-child(1) {
+
+            h2 {
+                font-size: map-get($font-size-md, v1);
+            }
+        }
+
+        div:nth-child(2) {
+            p {
+                font-size: map-get($font-size-md, v3);
+            }
+        }
+
+        div:nth-child(3) {
+            p {
+                font-size: map-get($font-size-md, v3);
+            }
+        }
+
+        div:nth-child(4) {
+            p {
+                font-size: map-get($font-size-md, v3);
+            }
+        }
+    }
+
+    .asistencia-coberturas {
+        gap: 1.875rem;
+
+        section:nth-child(1) {
+
+            h3 {
+                font-size: map-get($font-size-md, v2);
+            }
+        }
+
+        section:nth-child(2) {
+            width: 25rem;
+
+            ul {
+                li {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+        }
+    }
+
+    .contenedor-cards-coberturas {
+
+        div {
+            height: 25%;
+
+            h2:nth-child(1) {
+                font-size: map-get($font-size-md, v1);
+            }
+
+            h2:nth-child(2) {
+                font-size: map-get($font-size-md, v1);
+            }
+        }
+    }
+
+    .cards-assist {
+        @include flex (row, space-evenly, center);
+        height: 75%;
+        gap: 1.875rem;
+
+        article:nth-child(1) {
+            height: 72%;
+            width: 15rem;
+
+            h4 {
+                font-size: .9375rem;
+            }
+
+            div {
+                padding: .625rem;
+
+                p {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+
+            a {
+                font-size: map-get($font-size-md, v3);
+
+                button {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+        }
+
+        article:nth-child(2) {
+            height: 72%;
+            width: 15rem;
+
+            h4 {
+                font-size: .9375rem;
+            }
+
+            div {
+                padding: .625rem;
+
+                p {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+
+            a {
+                font-size: map-get($font-size-md, v3);
+
+                button {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+        }
+
+        article:nth-child(3) {
+            height: 72%;
+            width: 15rem;
+
+            h4 {
+                font-size: .9375rem;
+            }
+
+            div {
+                padding: .625rem;
+
+                p {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+
+            a {
+                font-size: map-get($font-size-md, v3);
+
+                button {
+                    font-size: map-get($font-size-md, v3);
+                }
+            }
+        }
+    }
+
+    .seccion-asesoramiento {
+        font-size: map-get($font-size-md, v3);
+    }
+
+    /* 1024 - main contactanos */
+    .formulario {
+        height: 41.875rem;
+        grid-template-columns: repeat(4, 13.75rem);
+        grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 6.25rem;
+    }
+
+    .form-titulo {
+
+        h2 {
+            font-size: map-get($font-size-md, v1);
+        }
+    }
+
+    .box-data {
+
+        p {
+            font-size: map-get($font-size-md, v3);
+            width: 19.375rem;
+        }
+
+        input {
+            font-size: map-get($font-size-md, v3);
+            width: 19.375rem;
+        }
+    }
+
+    .box-email {
+
+        p {
+            font-size: map-get($font-size-md, v3);
+            width: 19.375rem;
+        }
+
+        input {
+            font-size: map-get($font-size-md, v3);
+            width: 19.375rem;
+        }
+    }
+
+    .box-consulta {
+        p {
+            width: 46.875rem;
+            font-size: map-get($font-size-md, v3);
+        }
+
+        textarea {
+            font-size: map-get($font-size-md, v3);
+            width: 46.875rem;
+        }
+    }
+
+    .form-suscrip {
+        p {
+            font-size: map-get($font-size-md, v3);
+        }
+    }
+
+    .boton-enviar {
+        font-size: map-get($font-size-lg, v3);
+
+
+        input {
+            font-size: map-get($font-size-md, v3);
+        }
+
+    }
+
+    .ubicacion {
+        width: 100%;
+        height: 20rem;
+        grid-template-columns: repeat(5, 10.5rem);
+        grid-template-rows: repeat(3, 5.625rem);
+    }
+
+    .ubicacion-title {
+        font-size: map-get($font-size-md, v1);
+    }
+
+    .ubicacion-maps {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* 1024 - footer */
+
     .logo-footer {
-        width: 25%;
+        width: 30%;
         height: 100%;
 
         a {
@@ -100,24 +710,22 @@
     }
 
     .redes {
-        width: 75%;
         height: 100%;
+        width: 70%;
 
         ul {
-            list-style: none;
-            gap: 2.125rem;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-
             li {
                 a {
-                    height: 2.25rem;
-                    width: 1.6875rem;
+                    img {
+                        height: 1.8125rem;
+                        width: 1.5rem;
+                    }
                 }
             }
+        }
+
+        p {
+            font-size: .6875rem;
         }
     }
 }

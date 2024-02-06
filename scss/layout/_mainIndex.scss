@@ -6,14 +6,11 @@
     font-family: 'Montserrat', sans-serif;
     color: $ColorBanner;
     font-size: $FontSizeBanner;
-    line-height: 6.25rem;
+    line-height: $LineHeightBanner1;
     text-align: left;
     width: 100%;
     height: 37.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    @include flex (column, center, start);
     padding-left: 6.25rem;
 }
 
@@ -63,10 +60,7 @@
             border: black solid 2px;
             text-align: center;
             border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
+            @include flex (column, space-evenly, center);
 
             img {
                 width: 7.5rem;
@@ -162,7 +156,6 @@
 
     article:nth-child(2) {
         width: 100%;
-        ;
         height: 80%;
         padding: 3.125rem 0%;
         @include flex (row, space-evenly, center);
@@ -302,7 +295,7 @@
 
             img {
                 width: 25rem;
-                height: 220px;
+                height: 13.75rem;
             }
         }
 
@@ -315,7 +308,7 @@
                 li {
                     font-size: map-get($font-size-lg, v3);
                     list-style: none;
-                    line-height: 20px;
+                    line-height: 1.25rem;
                 }
             }
         }

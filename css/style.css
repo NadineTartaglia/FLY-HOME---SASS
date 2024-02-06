@@ -31,14 +31,17 @@ header {
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: none;
+    align-items: none; }
 
 .seccion-home {
   width: 25%;
   height: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
   .seccion-home a img {
@@ -49,10 +52,13 @@ header {
   width: 75%;
   height: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center; }
   .seccion-nav ul {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     height: 3.125rem;
@@ -68,17 +74,19 @@ header {
 .boton-nav {
   background-color: #000000;
   border: 2px solid #CEFF00;
-  padding: .625rem 1.25rem;
+  padding: .625rem 1.875rem;
   border-radius: .625rem;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  display: inline-block; }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
 
 .boton-nav:hover {
   color: #000000;
-  font-weight: bold;
-  /* color de fuente hover */ }
+  font-weight: bold; }
 
 .boton-nav::after {
   content: "";
@@ -169,8 +177,8 @@ header {
       border-radius: 10px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      align-items: center; }
       .seccion-servicios article:nth-child(2) div img {
         width: 7.5rem;
         height: 7.5rem; }
@@ -376,7 +384,7 @@ header {
       width: 25rem; }
       .seccion-beneficios article:nth-child(2) div:nth-child(1) img {
         width: 25rem;
-        height: 220px; }
+        height: 13.75rem; }
     .seccion-beneficios article:nth-child(2) div:nth-child(2) {
       height: 100%;
       width: 33.125rem;
@@ -384,7 +392,7 @@ header {
       .seccion-beneficios article:nth-child(2) div:nth-child(2) ul li {
         font-size: 1rem;
         list-style: none;
-        line-height: 20px; }
+        line-height: 1.25rem; }
 
 /* PAGINA - CIUDADANIA ITALIANA */
 /* 1° - SECCION */
@@ -398,14 +406,14 @@ header {
   justify-content: space-between;
   align-items: center; }
   .intro-ciudadania article:nth-child(1) {
-    height: 100%;
-    width: 25rem; }
+    width: 23.75rem;
+    height: 100%; }
     .intro-ciudadania article:nth-child(1) img {
-      width: 100%;
-      height: 100%; }
+      width: 23.75rem;
+      height: 25rem; }
   .intro-ciudadania article:nth-child(2) {
-    height: 100%;
     width: 34.375rem;
+    height: 100%;
     padding: .625rem;
     display: flex;
     flex-direction: column;
@@ -428,7 +436,7 @@ header {
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   width: 100%;
-  height: 600px;
+  height: 37.5rem;
   margin-top: 3.125rem; }
   .contenido-ciudadania article:nth-child(1) {
     height: 30%;
@@ -438,10 +446,10 @@ header {
     justify-content: center;
     align-items: center; }
     .contenido-ciudadania article:nth-child(1) h2 {
+      font-size: 1.875rem;
       width: 100%;
       text-align: center; }
       .contenido-ciudadania article:nth-child(1) h2 strong {
-        font-size: 1.875rem;
         font-weight: bolder; }
     .contenido-ciudadania article:nth-child(1) p {
       font-size: 1rem;
@@ -648,14 +656,14 @@ main {
       font-weight: bolder; }
   .card-texto p {
     font-size: 1rem;
-    line-height: 1.25rem; }
-  .card-texto p {
+    line-height: 1.25rem;
     text-align: justify; }
 
 .guia-2-etapa {
   height: 25rem;
   margin: 1.25rem 0%; }
   .guia-2-etapa article:nth-child(1) {
+    height: 20%;
     margin: 0% 9.375rem; }
     .guia-2-etapa article:nth-child(1) h3 {
       width: 40%;
@@ -671,7 +679,7 @@ main {
   .guia-2-etapa article:nth-child(2) {
     margin-top: 1.25rem;
     width: 100%;
-    height: 75%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -857,9 +865,8 @@ main {
     justify-content: center;
     align-items: start; }
     .asistencia-coberturas section:nth-child(2) ul {
-      font-size: .875rem;
       list-style: none;
-      line-height: 20px; }
+      line-height: 1.25rem; }
       .asistencia-coberturas section:nth-child(2) ul li {
         font-size: 1rem; }
 
@@ -900,6 +907,7 @@ main {
     .cards-assist article:nth-child(1) h4 {
       background-color: #000000;
       color: #CEFF00;
+      font-size: 1.0625rem;
       width: 100%;
       height: 20%;
       text-align: center;
@@ -917,22 +925,26 @@ main {
       justify-content: center;
       align-items: center;
       gap: .625rem; }
+      .cards-assist article:nth-child(1) div p {
+        font-size: 1rem; }
     .cards-assist article:nth-child(1) a {
       width: 100%;
       height: 30%;
       background-color: #f5f5f5;
+      font-size: .875rem;
       text-decoration: none;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       .cards-assist article:nth-child(1) a button {
         background-color: #CEFF00;
         font-family: 'Montserrat', sans-serif;
+        font-size: .875rem;
         font-weight: bold;
         border: none;
         border-radius: 10px;
-        padding: 10px;
+        padding: .625rem;
         cursor: pointer; }
       .cards-assist article:nth-child(1) a button:hover {
         background-color: #CEFF00;
@@ -948,6 +960,7 @@ main {
     .cards-assist article:nth-child(2) h4 {
       background-color: #000000;
       color: #CEFF00;
+      font-size: 1.0625rem;
       width: 100%;
       height: 20%;
       text-align: center;
@@ -965,22 +978,26 @@ main {
       justify-content: center;
       align-items: center;
       gap: .625rem; }
+      .cards-assist article:nth-child(2) div p {
+        font-size: 1rem; }
     .cards-assist article:nth-child(2) a {
       width: 100%;
       height: 30%;
       background-color: #f5f5f5;
+      font-size: .875rem;
       text-decoration: none;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       .cards-assist article:nth-child(2) a button {
         background-color: #CEFF00;
         font-family: 'Montserrat', sans-serif;
+        font-size: .875rem;
         font-weight: bold;
         border: none;
         border-radius: 10px;
-        padding: 10px;
+        padding: .625rem;
         cursor: pointer; }
       .cards-assist article:nth-child(2) a button:hover {
         background-color: #CEFF00;
@@ -996,6 +1013,7 @@ main {
     .cards-assist article:nth-child(3) h4 {
       background-color: #000000;
       color: #CEFF00;
+      font-size: 1.0625rem;
       width: 100%;
       height: 20%;
       text-align: center;
@@ -1013,22 +1031,26 @@ main {
       justify-content: center;
       align-items: center;
       gap: .625rem; }
+      .cards-assist article:nth-child(3) div p {
+        font-size: 1rem; }
     .cards-assist article:nth-child(3) a {
       width: 100%;
       height: 30%;
       background-color: #f5f5f5;
+      font-size: .875rem;
       text-decoration: none;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       .cards-assist article:nth-child(3) a button {
         background-color: #CEFF00;
         font-family: 'Montserrat', sans-serif;
+        font-size: .875rem;
         font-weight: bold;
         border: none;
         border-radius: 10px;
-        padding: 10px;
+        padding: .625rem;
         cursor: pointer; }
       .cards-assist article:nth-child(3) a button:hover {
         background-color: #CEFF00;
@@ -1050,18 +1072,15 @@ main {
 
 /* PAGINA - CONTACTANOS */
 .formulario {
-  background-color: #CEFF00;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   height: 43.75rem;
-  margin: 1.875rem 9.375rem;
   display: grid;
   grid-template-columns: repeat(4, 15.625rem);
   grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 6.25rem;
   grid-template-areas: "form-titulo form-titulo form-titulo form-titulo" "box-data box-data box-email box-email" "box-consulta box-consulta box-consulta box-consulta" "form-suscrip form-suscrip form-suscrip form-suscrip" "boton-enviar boton-enviar boton-enviar boton-enviar";
   justify-content: center;
-  align-content: center;
-  row-gap: .625rem; }
+  align-content: center; }
 
 .form-titulo {
   background-color: #CEFF00;
@@ -1078,6 +1097,7 @@ main {
       font-weight: bolder; }
 
 .box-data {
+  background-color: #CEFF00;
   grid-area: box-data;
   width: 100%;
   height: 100%;
@@ -1097,6 +1117,7 @@ main {
     width: 18.75rem; }
 
 .box-email {
+  background-color: #CEFF00;
   grid-area: box-email;
   width: 100%;
   height: 100%;
@@ -1116,6 +1137,7 @@ main {
     width: 18.75rem; }
 
 .box-consulta {
+  background-color: #CEFF00;
   grid-area: box-consulta;
   width: 100%;
   height: 100%;
@@ -1135,6 +1157,7 @@ main {
     Color: #000000; }
 
 .form-suscrip {
+  background-color: #CEFF00;
   grid-area: form-suscrip;
   width: 100%;
   height: 100%;
@@ -1144,9 +1167,13 @@ main {
   align-items: center;
   gap: .625rem;
   padding: 0% 6.25rem; }
+  .form-suscrip p {
+    font-size: 1rem; }
 
 .boton-enviar {
+  background-color: #CEFF00;
   grid-area: boton-enviar;
+  font-size: 1rem;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1234,15 +1261,16 @@ footer {
     justify-content: none;
     align-items: none; }
     .redes ul li a img {
-      height: 36px;
+      height: 2.25rem;
       width: 1.875rem; }
   .redes p {
     font-size: .75rem;
-    color: white; }
+    color: #ffffff; }
 
 /* 3.- COMPONENTES */
 /* 4.- MEDIAQ */
 @media (max-width: 1024px) {
+  /* 1024 - header */
   header {
     background-color: #000000;
     width: 100%;
@@ -1251,75 +1279,365 @@ footer {
       width: 100%;
       height: 100%;
       font-family: 'Montserrat', sans-serif;
-      font-size: 18px;
+      font-size: 1rem;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center; }
-    header .seccion-home {
-      width: 100%;
-      height: 55%;
-      margin: 0%; }
-      header .seccion-home a img {
-        width: 12.5rem;
-        height: 3.75rem; }
-    header .seccion-nav {
-      width: 100%;
-      height: 45%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly; }
-      header .seccion-nav ul {
-        margin-right: 0%;
-        width: 100%; }
-        header .seccion-nav ul li {
-          width: 100%; }
-  /* 1024 - main */
-  .seccion-equipo article:nth-child(2) {
+  .seccion-home {
     width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .seccion-equipo article:nth-child(2) span {
-      height: 10.625rem;
-      gap: .3125rem; }
-      .seccion-equipo article:nth-child(2) span div img {
-        width: 6.875rem;
-        height: 6.875rem; }
-      .seccion-equipo article:nth-child(2) span div h3 {
-        font-weight: bold;
-        font-size: 0.875rem; }
-      .seccion-equipo article:nth-child(2) span div p {
-        font-size: 0.875rem; }
-  /* 1024 - footer */
-  footer {
+    height: 55%;
+    margin: 0%; }
+    .seccion-home a img {
+      width: 12.5rem;
+      height: 3.75rem; }
+  .seccion-nav {
     width: 100%;
-    height: 9.375rem;
-    background-color: #000000;
+    height: 45%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center; }
-  .logo-footer {
+    margin: 0% 1.875rem; }
+    .seccion-nav ul {
+      margin-right: 0%;
+      width: 100%;
+      height: 3.125rem; }
+      .seccion-nav ul li {
+        width: 13.75rem; }
+  .boton-nav {
+    padding: .625rem 1rem; }
+  .banner-principal {
+    font-size: 2.3125rem;
+    padding-left: 4.6875rem; }
+  /* 1024 - main ciudadania italiana */
+  .seccion-servicios article:nth-child(1) h2 {
+    font-size: 1.75rem; }
+  .seccion-servicios article:nth-child(1) p {
+    font-size: 0.875rem; }
+  .seccion-servicios article:nth-child(2) div {
+    width: 12.5rem;
+    height: 10.625rem; }
+    .seccion-servicios article:nth-child(2) div img {
+      width: 6.25rem;
+      height: 6.25rem; }
+    .seccion-servicios article:nth-child(2) div h4 {
+      font-size: 12px; }
+  .seccion-elegirnos article:nth-child(1) h2 {
+    font-size: 1.75rem; }
+  .seccion-elegirnos article:nth-child(2) div {
+    width: 34.375rem; }
+    .seccion-elegirnos article:nth-child(2) div p {
+      font-size: 0.875rem; }
+  .seccion-elegirnos article:nth-child(2) div img {
+    width: 15.5rem;
+    height: 13rem; }
+  .seccion-equipo {
+    margin: .625rem 6.25rem;
+    height: 31.25rem; }
+    .seccion-equipo article:nth-child(1) h2 {
+      font-size: 1.75rem; }
+    .seccion-equipo article:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.875rem; }
+      .seccion-equipo article:nth-child(2) span {
+        height: 10.625rem;
+        gap: .3125rem; }
+        .seccion-equipo article:nth-child(2) span div {
+          gap: .3125rem; }
+          .seccion-equipo article:nth-child(2) span div img {
+            width: 8.4375rem;
+            height: 8.4375rem; }
+          .seccion-equipo article:nth-child(2) span div p {
+            font-size: 0.875rem; }
+  .seccion-contacto {
+    height: 12.5rem; }
+    .seccion-contacto h2 {
+      font-size: 1.75rem; }
+    .seccion-contacto div a {
+      font-size: 0.875rem;
+      padding: .75rem 1.25rem; }
+  .seccion-beneficios {
+    height: 25rem;
+    margin: 1.25rem 7.5rem; }
+    .seccion-beneficios article:nth-child(1) h2 {
+      font-size: 1.75rem; }
+    .seccion-beneficios article:nth-child(2) {
+      gap: 2.5rem; }
+      .seccion-beneficios article:nth-child(2) div:nth-child(1) img {
+        width: 20rem;
+        height: 11rem; }
+      .seccion-beneficios article:nth-child(2) div:nth-child(2) ul li {
+        font-size: 0.875rem; }
+  /* 1024 - main ciudadania italiana */
+  .intro-ciudadania {
+    margin: 0% 8.125rem;
+    height: 21.875rem;
+    gap: 3.125rem; }
+    .intro-ciudadania article:nth-child(1) img {
+      width: 19rem;
+      height: 20rem; }
+    .intro-ciudadania article:nth-child(2) h2 {
+      font-size: 1.75rem; }
+    .intro-ciudadania article:nth-child(2) p {
+      font-size: 1rem;
+      line-height: 1.3125rem; }
+  .contenido-ciudadania {
+    width: 100%;
+    height: 40.625rem;
+    margin-top: 2.5rem; }
+    .contenido-ciudadania article:nth-child(1) h2 {
+      font-size: 1.75rem; }
+    .contenido-ciudadania article:nth-child(1) p {
+      font-size: 0.875rem; }
+    .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 {
+      width: 100%;
+      height: 3.125rem;
+      font-size: 1.125rem; }
+    .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
+      font-size: 0.875rem; }
+    .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 {
+      font-size: 1.125rem; }
+    .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
+      font-size: 0.875rem; }
+  .contenido-final h3 {
+    font-size: 1.125rem; }
+  .contenido-final p {
+    font-size: 0.875rem; }
+  /* 1024 - main guia paso a paso */
+  main div img {
     width: 25%;
+    height: 17rem; }
+  .guia h1 {
+    top: 24.25rem;
+    font-size: 8.4375rem; }
+  .guia h2 {
+    font-size: 1.75rem; }
+  .guia p {
+    font-size: 0.875rem; }
+  .guia-1-etapa span h3 {
+    font-size: 1.125rem; }
+  .part-1, .part-2 {
+    width: 100%;
+    height: 20.625rem;
+    font-size: 0.875rem; }
+    .part-1 div:nth-child(1) img, .part-2 div:nth-child(1) img {
+      width: 2.5rem;
+      height: 2.5rem; }
+    .part-1 div:nth-child(2) img, .part-2 div:nth-child(2) img {
+      width: 2.5rem;
+      height: 2.5rem; }
+  .card-texto h4 {
+    font-size: 0.875rem; }
+  .card-texto p {
+    font-size: 0.875rem; }
+  .guia-2-etapa {
+    height: 62.5rem;
+    margin: 1.25rem 0%; }
+    .guia-2-etapa article:nth-child(1) {
+      height: 5%; }
+      .guia-2-etapa article:nth-child(1) h3 {
+        font-size: 1.125rem; }
+    .guia-2-etapa article:nth-child(2) {
+      transform: rotate(-90deg);
+      width: 100%;
+      height: 95%;
+      gap: 5rem; }
+      .guia-2-etapa article:nth-child(2) span:nth-child(1) img {
+        width: 50rem;
+        height: .875rem; }
+      .guia-2-etapa article:nth-child(2) span:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 59.375rem;
+        height: 6.25rem;
+        gap: .3125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(1) {
+          transform: rotate(90deg);
+          order: 6;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(1) p {
+            font-size: 0.875rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) {
+          transform: rotate(90deg);
+          order: 5;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) p {
+            font-size: 0.875rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) {
+          transform: rotate(90deg);
+          order: 4;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) p {
+            font-size: 0.875rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) {
+          transform: rotate(90deg);
+          order: 3;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) p {
+            font-size: 0.875rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) {
+          transform: rotate(90deg);
+          order: 2;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) p {
+            font-size: 0.875rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) {
+          transform: rotate(90deg);
+          order: 1;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) p {
+            font-size: 0.875rem; }
+  /* 1024 - main asistencia al viajero */
+  .banner-asistencia {
+    font-size: 2.3125rem;
+    line-height: 4.375rem; }
+    .banner-asistencia img {
+      width: 8.5rem;
+      height: 10rem; }
+  .asistencia-intro div:nth-child(1) h2 {
+    font-size: 1.75rem; }
+  .asistencia-intro div:nth-child(2) p {
+    font-size: 0.875rem; }
+  .asistencia-intro div:nth-child(3) p {
+    font-size: 0.875rem; }
+  .asistencia-intro div:nth-child(4) p {
+    font-size: 0.875rem; }
+  .asistencia-coberturas {
+    gap: 1.875rem; }
+    .asistencia-coberturas section:nth-child(1) h3 {
+      font-size: 1.125rem; }
+    .asistencia-coberturas section:nth-child(2) {
+      width: 25rem; }
+      .asistencia-coberturas section:nth-child(2) ul li {
+        font-size: 0.875rem; }
+  .contenedor-cards-coberturas div {
+    height: 25%; }
+    .contenedor-cards-coberturas div h2:nth-child(1) {
+      font-size: 1.75rem; }
+    .contenedor-cards-coberturas div h2:nth-child(2) {
+      font-size: 1.75rem; }
+  .cards-assist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75%;
+    gap: 1.875rem; }
+    .cards-assist article:nth-child(1) {
+      height: 72%;
+      width: 15rem; }
+      .cards-assist article:nth-child(1) h4 {
+        font-size: .9375rem; }
+      .cards-assist article:nth-child(1) div {
+        padding: .625rem; }
+        .cards-assist article:nth-child(1) div p {
+          font-size: 0.875rem; }
+      .cards-assist article:nth-child(1) a {
+        font-size: 0.875rem; }
+        .cards-assist article:nth-child(1) a button {
+          font-size: 0.875rem; }
+    .cards-assist article:nth-child(2) {
+      height: 72%;
+      width: 15rem; }
+      .cards-assist article:nth-child(2) h4 {
+        font-size: .9375rem; }
+      .cards-assist article:nth-child(2) div {
+        padding: .625rem; }
+        .cards-assist article:nth-child(2) div p {
+          font-size: 0.875rem; }
+      .cards-assist article:nth-child(2) a {
+        font-size: 0.875rem; }
+        .cards-assist article:nth-child(2) a button {
+          font-size: 0.875rem; }
+    .cards-assist article:nth-child(3) {
+      height: 72%;
+      width: 15rem; }
+      .cards-assist article:nth-child(3) h4 {
+        font-size: .9375rem; }
+      .cards-assist article:nth-child(3) div {
+        padding: .625rem; }
+        .cards-assist article:nth-child(3) div p {
+          font-size: 0.875rem; }
+      .cards-assist article:nth-child(3) a {
+        font-size: 0.875rem; }
+        .cards-assist article:nth-child(3) a button {
+          font-size: 0.875rem; }
+  .seccion-asesoramiento {
+    font-size: 0.875rem; }
+  /* 1024 - main contactanos */
+  .formulario {
+    height: 41.875rem;
+    grid-template-columns: repeat(4, 13.75rem);
+    grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 6.25rem; }
+  .form-titulo h2 {
+    font-size: 1.75rem; }
+  .box-data p {
+    font-size: 0.875rem;
+    width: 19.375rem; }
+  .box-data input {
+    font-size: 0.875rem;
+    width: 19.375rem; }
+  .box-email p {
+    font-size: 0.875rem;
+    width: 19.375rem; }
+  .box-email input {
+    font-size: 0.875rem;
+    width: 19.375rem; }
+  .box-consulta p {
+    width: 46.875rem;
+    font-size: 0.875rem; }
+  .box-consulta textarea {
+    font-size: 0.875rem;
+    width: 46.875rem; }
+  .form-suscrip p {
+    font-size: 0.875rem; }
+  .boton-enviar {
+    font-size: 1rem; }
+    .boton-enviar input {
+      font-size: 0.875rem; }
+  .ubicacion {
+    width: 100%;
+    height: 20rem;
+    grid-template-columns: repeat(5, 10.5rem);
+    grid-template-rows: repeat(3, 5.625rem); }
+  .ubicacion-title {
+    font-size: 1.75rem; }
+  .ubicacion-maps {
+    width: 100%;
+    height: 100%; }
+  /* 1024 - footer */
+  .logo-footer {
+    width: 30%;
     height: 100%; }
     .logo-footer a img {
       width: 12.5rem;
       height: 3.75rem; }
   .redes {
-    width: 75%;
-    height: 100%; }
-    .redes ul {
-      list-style: none;
-      gap: 2.125rem;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center; }
-      .redes ul li a {
-        height: 2.25rem;
-        width: 1.6875rem; } }
+    height: 100%;
+    width: 70%; }
+    .redes ul li a img {
+      height: 1.8125rem;
+      width: 1.5rem; }
+    .redes p {
+      font-size: .6875rem; } }
 
 @media (max-width: 768px) {
   /* 768 - Navegador */

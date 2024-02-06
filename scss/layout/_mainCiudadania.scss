@@ -3,24 +3,24 @@
 /* 1° - SECCION */
 .intro-ciudadania {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: $ColorGeneral;
     height: 25rem;
     margin: 0% 9.375rem;
     @include flex (row, space-between, center);
 
     article:nth-child(1) {
+        width: 23.75rem;
         height: 100%;
-        width: 25rem;
 
         img {
-            width: 100%;
-            height: 100%;
+            width: 23.75rem;
+            height: 25rem;
         }
     }
 
     article:nth-child(2) {
-        height: 100%;
         width: 34.375rem;
+        height: 100%;
         padding: .625rem;
         @include flex (column, center, start);
 
@@ -48,9 +48,9 @@
 
 .contenido-ciudadania {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: $ColorGeneral;
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
     margin-top: 3.125rem;
 
     article:nth-child(1) {
@@ -59,11 +59,11 @@
         @include flex (column, center, center);
 
         h2 {
+            font-size: map-get($font-size-lg, v1);
             width: 100%;
             text-align: center;
 
             strong {
-                font-size: map-get($font-size-lg, v1);
                 font-weight: bolder;
             }
         }
@@ -124,7 +124,7 @@
                 width: 100%;
                 height: 3.125rem;
                 background-color: $BackgroundPrincipal;
-                font-size: map-get($font-size-lg , v2);
+                font-size: map-get($font-size-lg, v2);
                 text-align: center;
                 @include flex (row, center, center);
 
@@ -149,17 +149,17 @@
 
 .contenido-final {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: $ColorGeneral;
     height: 12.5rem;
     padding: 0% 9.375rem;
     width: 100%;
     @include flex (column, start, center);
 
     h3 {
-        font-size: map-get($font-size-lg , v2);
+        font-size: map-get($font-size-lg, v2);
         width: 100%;
         height: 3.125rem;
-        background-color: #f5f5f5;
+        background-color: $BackgroundTerciario;
         text-align: center;
         @include flex (row, center, center);
         
