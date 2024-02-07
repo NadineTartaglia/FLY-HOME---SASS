@@ -46,11 +46,11 @@
     }
 
     .boton-nav {
-        padding: .5rem .625rem;
+        padding: .5rem 1.5rem;
     }
 
     .boton-nav::after {
-        padding: .5rem .625rem;
+        padding: .5rem 1.5rem;
     }
 
     .banner-principal {
@@ -582,7 +582,7 @@
 
         div {
             height: 35%;
-            
+
             h2:nth-child(1) {
                 font-size: map-get($font-size-s, v1);
             }
@@ -685,81 +685,85 @@
 
     /* 768 - main contactanos */
     .formulario {
-        height: 41.875rem;
-        grid-template-columns: repeat(4, 13.75rem);
-        grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 6.25rem;
+        height: 37.5rem;
+        grid-template-columns: repeat(4, 11rem);
+        grid-template-rows: 7.5rem 5.625rem 12.5rem 2.5rem 5rem;
     }
 
     .form-titulo {
 
         h2 {
-            font-size: map-get($font-size-md, v1);
+            font-size: map-get($font-size-s, v1);
         }
     }
 
     .box-data {
 
         p {
-            font-size: map-get($font-size-md, v3);
-            width: 19.375rem;
+            font-size: map-get($font-size-s, v3);
+            width: 17.5rem;
         }
 
         input {
-            font-size: map-get($font-size-md, v3);
-            width: 19.375rem;
+            font-size: map-get($font-size-s, v3);
+            width: 17.5rem;
         }
     }
 
     .box-email {
 
         p {
-            font-size: map-get($font-size-md, v3);
-            width: 19.375rem;
+            font-size: map-get($font-size-s, v3);
+            width: 17.5rem;
         }
 
         input {
-            font-size: map-get($font-size-md, v3);
-            width: 19.375rem;
+            font-size: map-get($font-size-s, v3);
+            width: 17.5rem;
         }
     }
 
     .box-consulta {
         p {
-            width: 46.875rem;
-            font-size: map-get($font-size-md, v3);
+            font-size: map-get($font-size-s, v3);
+            width: 39.375rem;
         }
 
         textarea {
-            font-size: map-get($font-size-md, v3);
-            width: 46.875rem;
+            font-size: map-get($font-size-s, v3);
+            width: 39.375rem;
         }
     }
 
     .form-suscrip {
+        padding: 0% 2.1875rem;
+
         p {
-            font-size: map-get($font-size-md, v3);
+            font-size: map-get($font-size-s, v3);
         }
     }
 
     .boton-enviar {
-        font-size: map-get($font-size-lg, v3);
+        font-size: map-get($font-size-s, v3);
 
 
         input {
-            font-size: map-get($font-size-md, v3);
+            font-size: map-get($font-size-s, v3);
+            width: 6.25rem;
+            height: 1.875rem;
         }
 
     }
 
     .ubicacion {
         width: 100%;
-        height: 20rem;
-        grid-template-columns: repeat(5, 10.5rem);
-        grid-template-rows: repeat(3, 5.625rem);
+        height: 15.625rem;
+        grid-template-columns: repeat(5, 8.3125rem);
+        grid-template-rows: repeat(3, 4.5rem);
     }
 
     .ubicacion-title {
-        font-size: map-get($font-size-md, v1);
+        font-size: map-get($font-size-s, v1);
     }
 
     .ubicacion-maps {
