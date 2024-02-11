@@ -1693,28 +1693,28 @@ footer {
     height: 21.875rem;
     margin: 1.25rem 5.625rem 1.25rem 5.625rem; }
     .seccion-servicios article:nth-child(1) h2 {
-      font-size: 1.625rem; }
+      font-size: 1.6875rem; }
     .seccion-servicios article:nth-child(1) p {
-      font-size: 0.75rem;
+      font-size: 0.8125rem;
       line-height: 1.125rem; }
     .seccion-servicios article:nth-child(2) div {
-      width: 10.625rem;
-      height: 9rem; }
+      width: 10.9375rem;
+      height: 9.0625rem; }
       .seccion-servicios article:nth-child(2) div img {
         width: 5rem;
         height: 5rem; }
       .seccion-servicios article:nth-child(2) div h4 {
-        font-size: .625rem; }
+        font-size: .6875rem; }
   .seccion-elegirnos {
     height: 25rem; }
     .seccion-elegirnos article:nth-child(1) h2 {
-      font-size: 1.625rem; }
+      font-size: 1.6875rem; }
     .seccion-elegirnos article:nth-child(2) {
       gap: 2.1875rem; }
       .seccion-elegirnos article:nth-child(2) div {
         width: 25rem; }
         .seccion-elegirnos article:nth-child(2) div p {
-          font-size: 0.75rem;
+          font-size: 0.8125rem;
           line-height: 1.125rem; }
       .seccion-elegirnos article:nth-child(2) div img {
         width: 15.5rem;
@@ -1725,7 +1725,7 @@ footer {
     .seccion-equipo article:nth-child(1) {
       height: 15%; }
       .seccion-equipo article:nth-child(1) h2 {
-        font-size: 1.625rem; }
+        font-size: 1.6875rem; }
     .seccion-equipo article:nth-child(2) {
       height: 85%;
       display: flex;
@@ -1742,24 +1742,24 @@ footer {
             width: 7.8125rem;
             height: 7.8125rem; }
           .seccion-equipo article:nth-child(2) span div p {
-            font-size: 0.75rem;
+            font-size: 0.8125rem;
             line-height: 1.125rem; }
   .seccion-contacto {
     height: 12.5rem; }
     .seccion-contacto h2 {
-      font-size: 1.625rem; }
+      font-size: 1.6875rem; }
     .seccion-contacto div a {
-      font-size: 0.75rem;
+      font-size: 0.8125rem;
       padding: .75rem 1.25rem; }
     .seccion-contacto div a:hover {
-      font-size: 0.75rem; }
+      font-size: 0.8125rem; }
     .seccion-contacto div a::after {
       padding: .75rem 1.25rem; }
   .seccion-beneficios {
     height: 21.875rem;
     margin: 1.25rem 4.375rem; }
     .seccion-beneficios article:nth-child(1) h2 {
-      font-size: 1.625rem; }
+      font-size: 1.6875rem; }
     .seccion-beneficios article:nth-child(2) {
       gap: 2.1875rem; }
       .seccion-beneficios article:nth-child(2) div:nth-child(1) {
@@ -1768,56 +1768,67 @@ footer {
           width: 18rem;
           height: 9.875rem; }
       .seccion-beneficios article:nth-child(2) div:nth-child(2) ul li {
-        font-size: 0.75rem;
+        font-size: 0.8125rem;
         line-height: 1.125rem;
         text-align: justify; }
   /* 768 - main ciudadania italiana */
   .intro-ciudadania {
-    margin: 0% 4.375rem;
-    height: 18.75rem;
-    gap: 1.875rem; }
+    margin: 0% 4.0625rem;
+    height: 21.875rem;
+    gap: 1.25rem; }
     .intro-ciudadania article:nth-child(1) img {
-      width: 15.1875rem;
-      height: 16rem; }
-    .intro-ciudadania article:nth-child(2) h2 {
-      font-size: 1.625rem; }
-    .intro-ciudadania article:nth-child(2) p {
-      padding-top: 1.25rem;
-      font-size: .875rem;
-      line-height: 1.125rem; }
+      width: 16.875rem;
+      height: 100%; }
+    .intro-ciudadania article:nth-child(2) {
+      width: 31.25rem;
+      height: 100%; }
+      .intro-ciudadania article:nth-child(2) h2 {
+        font-size: 1.6875rem; }
+      .intro-ciudadania article:nth-child(2) p {
+        padding-top: 1.25rem;
+        font-size: .875rem;
+        line-height: 1.125rem; }
   .contenido-ciudadania {
     width: 100%;
-    height: 37.5rem;
-    margin-top: 1.875rem; }
+    padding: 1.25rem;
+    height: 40.625rem;
+    margin-top: 2.5rem; }
     .contenido-ciudadania article:nth-child(1) {
-      height: 25%; }
+      height: 25%;
+      width: 100%; }
       .contenido-ciudadania article:nth-child(1) h2 {
-        font-size: 1.625rem; }
+        font-size: 1.6875rem; }
       .contenido-ciudadania article:nth-child(1) p {
-        font-size: 0.75rem;
+        font-size: 0.8125rem;
         line-height: 1.125rem;
-        margin: 1.25rem 6.25rem; }
+        margin: 1.25rem 4.0625rem; }
     .contenido-ciudadania article:nth-child(2) {
       height: 75%; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 {
-        width: 100%;
-        height: 3.125rem;
-        font-size: 1rem; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
-        font-size: 0.75rem;
-        line-height: 1.125rem; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 {
-        font-size: 1rem; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
-        font-size: 0.75rem;
-        line-height: 1.125rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(1) {
+        width: 36%; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 {
+          width: 100%;
+          height: 3.125rem;
+          font-size: 1.0625rem; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
+          font-size: 0.8125rem;
+          line-height: 1.125rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(2) {
+        width: 36%; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 {
+          width: 100%;
+          height: 3.125rem;
+          font-size: 1.0625rem; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
+          font-size: 0.8125rem;
+          line-height: 1.125rem; }
   .contenido-final {
-    height: 10.625rem;
-    padding: 0% 6.25rem; }
+    height: 12.5rem;
+    padding: 0% 4.0625rem; }
     .contenido-final h3 {
-      font-size: 1rem; }
+      font-size: 1.0625rem; }
     .contenido-final p {
-      font-size: 0.75rem;
+      font-size: 0.8125rem;
       line-height: 1.125rem; }
   /* 768 - main guia paso a paso */
   main div img {
@@ -1827,21 +1838,21 @@ footer {
     top: 19.875rem;
     font-size: 7.8125rem; }
   .guia h2 {
-    font-size: 1.625rem; }
+    font-size: 1.6875rem; }
   .guia p {
     margin-top: 1.875rem;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     line-height: 1.125rem; }
   .guia-1-etapa {
-    margin: 3.125rem 4.375rem; }
+    margin: 3.125rem 4.375rem .625rem 4.375rem; }
     .guia-1-etapa span h3 {
       width: 45%;
-      font-size: 1rem; }
+      font-size: 1.0625rem; }
   .part-1, .part-2 {
     width: 100%;
-    height: 20rem;
+    height: 21.875rem;
     gap: .9375rem;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     line-height: 1.125rem; }
     .part-1 div:nth-child(1) img, .part-2 div:nth-child(1) img {
       width: 2.1875rem;
@@ -1850,19 +1861,18 @@ footer {
       width: 2.1875rem;
       height: 2.1875rem; }
   .card-texto h4 {
-    font-size: 0.75rem; }
+    font-size: 0.8125rem; }
   .card-texto p {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     line-height: 1.125rem; }
   .guia-2-etapa {
-    height: 62.5rem;
-    margin: 1.25rem 0%; }
+    height: 62.5rem; }
     .guia-2-etapa article:nth-child(1) {
       height: 5%;
       margin: 0% 4.375rem; }
       .guia-2-etapa article:nth-child(1) h3 {
         width: 45%;
-        font-size: 1rem; }
+        font-size: 1.0625rem; }
     .guia-2-etapa article:nth-child(2) {
       transform: rotate(-90deg);
       width: 100%;
@@ -1886,7 +1896,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(1) p {
-            font-size: 0.75rem; }
+            font-size: 0.8125rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) {
           transform: rotate(90deg);
           order: 5;
@@ -1894,7 +1904,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) p {
-            font-size: 0.75rem; }
+            font-size: 0.8125rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) {
           transform: rotate(90deg);
           order: 4;
@@ -1902,7 +1912,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) p {
-            font-size: 0.75rem; }
+            font-size: 0.8125rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) {
           transform: rotate(90deg);
           order: 3;
@@ -1910,7 +1920,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) p {
-            font-size: 0.75rem; }
+            font-size: 0.8125rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) {
           transform: rotate(90deg);
           order: 2;
@@ -1918,7 +1928,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) p {
-            font-size: 0.75rem; }
+            font-size: 0.8125rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) {
           transform: rotate(90deg);
           order: 1;
@@ -1926,11 +1936,11 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) p {
-            font-size: 0.75rem; }
+            font-size: 0.8125rem; }
   /* 768 - main asistencia al viajero */
   .contenedor-asistencia {
-    height: 87.5rem;
-    grid-template-rows: repeat(17, 5rem); }
+    height: 93.125rem;
+    grid-template-rows: repeat(5, 5rem) repeat(5, 6.25rem) repeat(2, 4.375rem) repeat(5, 5.625rem); }
   .banner-asistencia {
     font-size: 1.6875rem;
     line-height: 3.125rem; }
@@ -1940,17 +1950,17 @@ footer {
   .asistencia-intro {
     gap: .5rem; }
     .asistencia-intro div:nth-child(1) h2 {
-      font-size: 1.625rem; }
+      font-size: 1.6875rem; }
     .asistencia-intro div:nth-child(2) {
       margin-top: .625rem; }
       .asistencia-intro div:nth-child(2) p {
-        font-size: 0.75rem;
+        font-size: 0.8125rem;
         line-height: 1.125rem; }
     .asistencia-intro div:nth-child(3) p {
-      font-size: 0.75rem;
+      font-size: 0.8125rem;
       line-height: 1.125rem; }
     .asistencia-intro div:nth-child(4) p {
-      font-size: 0.75rem;
+      font-size: 0.8125rem;
       line-height: 1.125rem; }
   .asistencia-coberturas {
     margin-top: 1.25rem;
@@ -1958,22 +1968,22 @@ footer {
     .asistencia-coberturas section:nth-child(1) {
       height: 100%; }
       .asistencia-coberturas section:nth-child(1) h3 {
-        font-size: 1rem; }
+        font-size: 1.0625rem; }
     .asistencia-coberturas section:nth-child(2) {
       height: 100%;
       width: 28.125rem; }
       .asistencia-coberturas section:nth-child(2) ul {
         line-height: 1.125rem; }
         .asistencia-coberturas section:nth-child(2) ul li {
-          font-size: 0.75rem; }
+          font-size: 0.8125rem; }
   .contenedor-cards-coberturas {
     margin-top: .625rem; }
     .contenedor-cards-coberturas div {
       height: 35%; }
       .contenedor-cards-coberturas div h2:nth-child(1) {
-        font-size: 1.625rem; }
+        font-size: 1.6875rem; }
       .contenedor-cards-coberturas div h2:nth-child(2) {
-        font-size: 1.625rem; }
+        font-size: 1.6875rem; }
   .cards-assist {
     display: flex;
     flex-direction: row;
@@ -1982,50 +1992,50 @@ footer {
     height: 65%;
     gap: 1.875rem; }
     .cards-assist article:nth-child(1) {
-      height: 72%;
-      width: 15rem; }
+      height: 80%;
+      width: 17.5rem; }
       .cards-assist article:nth-child(1) h4 {
         font-size: .9375rem; }
       .cards-assist article:nth-child(1) div {
         padding: .625rem; }
         .cards-assist article:nth-child(1) div p {
-          font-size: 0.75rem;
+          font-size: 0.8125rem;
           line-height: 1.125rem; }
       .cards-assist article:nth-child(1) a {
-        font-size: 0.75rem; }
+        font-size: 0.8125rem; }
         .cards-assist article:nth-child(1) a button {
-          font-size: 0.75rem; }
+          font-size: 0.8125rem; }
     .cards-assist article:nth-child(2) {
-      height: 72%;
-      width: 15rem; }
+      height: 80%;
+      width: 17.5rem; }
       .cards-assist article:nth-child(2) h4 {
         font-size: .9375rem; }
       .cards-assist article:nth-child(2) div {
         padding: .625rem; }
         .cards-assist article:nth-child(2) div p {
-          font-size: 0.75rem;
+          font-size: 0.8125rem;
           line-height: 1.125rem; }
       .cards-assist article:nth-child(2) a {
-        font-size: 0.75rem; }
+        font-size: 0.8125rem; }
         .cards-assist article:nth-child(2) a button {
-          font-size: 0.75rem; }
+          font-size: 0.8125rem; }
     .cards-assist article:nth-child(3) {
-      height: 72%;
-      width: 15rem; }
+      height: 80%;
+      width: 17.5rem; }
       .cards-assist article:nth-child(3) h4 {
         font-size: .9375rem; }
       .cards-assist article:nth-child(3) div {
         padding: .625rem; }
         .cards-assist article:nth-child(3) div p {
-          font-size: 0.75rem;
+          font-size: 0.8125rem;
           line-height: 1.125rem; }
       .cards-assist article:nth-child(3) a {
-        font-size: 0.75rem; }
+        font-size: 0.8125rem; }
         .cards-assist article:nth-child(3) a button {
-          font-size: 0.75rem; }
+          font-size: 0.8125rem; }
   .seccion-asesoramiento {
     grid-column: 2 / 8;
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     line-height: 1.125rem; }
   /* 768 - main contactanos */
   .formulario {
@@ -2033,33 +2043,33 @@ footer {
     grid-template-columns: repeat(4, 11rem);
     grid-template-rows: 7.5rem 5.625rem 12.5rem 2.5rem 5rem; }
   .form-titulo h2 {
-    font-size: 1.625rem; }
+    font-size: 1.6875rem; }
   .box-data p {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     width: 17.5rem; }
   .box-data input {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     width: 17.5rem; }
   .box-email p {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     width: 17.5rem; }
   .box-email input {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     width: 17.5rem; }
   .box-consulta p {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     width: 39.375rem; }
   .box-consulta textarea {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     width: 39.375rem; }
   .form-suscrip {
     padding: 0% 2.1875rem; }
     .form-suscrip p {
-      font-size: 0.75rem; }
+      font-size: 0.8125rem; }
   .boton-enviar {
-    font-size: 0.75rem; }
+    font-size: 0.8125rem; }
     .boton-enviar input {
-      font-size: 0.75rem;
+      font-size: 0.8125rem;
       width: 6.25rem;
       height: 1.875rem; }
   .ubicacion {
@@ -2068,7 +2078,7 @@ footer {
     grid-template-columns: repeat(5, 8.3125rem);
     grid-template-rows: repeat(3, 4.5rem); }
   .ubicacion-title {
-    font-size: 1.625rem; }
+    font-size: 1.6875rem; }
   .ubicacion-maps {
     width: 100%;
     height: 100%; }
@@ -2089,262 +2099,448 @@ footer {
       font-size: .6875rem; } }
 
 @media (max-width: 375px) {
-  /* 375 - Navegador */
+  /* 768 - header */
   header {
     background-color: #000000;
     width: 100%;
     height: 9.375rem; }
-  header nav {
-    width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+    header nav {
+      width: 100%;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: .875rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
   .seccion-home {
     width: 100%;
-    height: 30%; }
-  .logo-nav img {
-    width: 7.8125rem;
-    height: 2.3125rem; }
+    height: 55%;
+    margin: 0%; }
+    .seccion-home a img {
+      width: 11.25rem;
+      height: 3.375rem; }
   .seccion-nav {
     width: 100%;
-    height: 70%; }
-  .pages {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: .125rem; }
-  .boton-nav {
-    font-size: 10px;
-    width: 7.5rem;
-    height: 1.3125rem; }
-  /* 375 - Banner Principal */
-  .banner-principal {
-    font-size: 18px;
-    line-height: 26px;
-    width: 100%;
-    height: 18.75rem;
-    padding: 1.25rem; }
-  /* 375 - Seccion Servicios */
-  .seccion-servicios {
-    height: 34.375rem;
-    display: flex;
-    flex-direction: column; }
-  .contenerdor-intro {
-    width: 100%;
-    height: 30%; }
-  .intro-titulo {
-    font-size: 14px;
-    height: 30%; }
-  .intro-texto {
-    font-size: 10px;
-    line-height: 14px;
-    height: 70%;
-    padding: 0% 1.875rem; }
-  .contenedor-cards {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center; }
-  .card {
-    width: 6.25rem;
-    height: 5.625rem;
-    display: flex;
-    flex-direction: column; }
-  .card img {
-    width: 3.125rem;
-    height: 3.125rem; }
-  .card h4 {
-    font-size: 10px;
-    font-weight: bold; }
-  /* 375 - Seccion Elegirnos */
-  .seccion-elegirnos {
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    background-color: #CFFF00;
-    width: 100%;
-    height: 28.125rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .titulo {
-    height: 15%;
-    gap: .0625rem;
-    padding: 0% 1.875rem; }
-  .titulo h2 {
-    font-size: 14px; }
-  .info {
-    width: 100%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; }
-  .info p {
-    font-size: 10px;
-    line-height: 14px;
-    width: 18.75rem; }
-  .info img {
-    width: 9.0625rem;
-    height: 7.5rem; }
-  /* 375 - Seccion Equipo */
-  .seccion-equipo {
-    width: 100%;
-    height: 28.125rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; }
-  .card-titulo {
-    height: 10%;
-    width: 100%; }
-  .card-titulo h2 {
-    font-size: 14px; }
-  .card-miembros {
-    width: 100%;
-    height: 90%;
-    gap: .625rem;
-    padding: 1.25rem; }
-  .card-miembros span {
-    width: 100%;
+    height: 45%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center; }
-  .card-miembros span div {
-    width: 250px;
-    height: 200px;
-    gap: .125rem;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly; }
-  .card-miembros span div h3 {
-    font-size: 12px;
-    text-align: center; }
-  .card-miembros span div p {
-    font-size: 10px;
-    line-height: 14px;
-    text-align: center; }
-  .card-retrato {
-    width: 6.25rem;
-    height: 6.25rem; }
-  /* 375 - Seccion Contacto */
+    margin: 0% 1.875rem; }
+    .seccion-nav ul {
+      margin-right: 0%;
+      width: 100%;
+      height: 3.125rem; }
+      .seccion-nav ul li {
+        width: 10.9375rem; }
+  .boton-nav {
+    padding: .5rem 1.5rem; }
+  .boton-nav::after {
+    padding: .5rem 1.5rem; }
+  .banner-principal {
+    font-size: 1.6875rem;
+    line-height: 4.375rem;
+    height: 25rem; }
+  /* 768 - main ciudadania italiana */
+  .seccion-servicios {
+    height: 21.875rem;
+    margin: 1.25rem 5.625rem 1.25rem 5.625rem; }
+    .seccion-servicios article:nth-child(1) h2 {
+      font-size: 1.6875rem; }
+    .seccion-servicios article:nth-child(1) p {
+      font-size: 0.8125rem;
+      line-height: 1.125rem; }
+    .seccion-servicios article:nth-child(2) div {
+      width: 10.625rem;
+      height: 9rem; }
+      .seccion-servicios article:nth-child(2) div img {
+        width: 5rem;
+        height: 5rem; }
+      .seccion-servicios article:nth-child(2) div h4 {
+        font-size: .625rem; }
+  .seccion-elegirnos {
+    height: 25rem; }
+    .seccion-elegirnos article:nth-child(1) h2 {
+      font-size: 1.6875rem; }
+    .seccion-elegirnos article:nth-child(2) {
+      gap: 2.1875rem; }
+      .seccion-elegirnos article:nth-child(2) div {
+        width: 25rem; }
+        .seccion-elegirnos article:nth-child(2) div p {
+          font-size: 0.8125rem;
+          line-height: 1.125rem; }
+      .seccion-elegirnos article:nth-child(2) div img {
+        width: 15.5rem;
+        height: 13rem; }
+  .seccion-equipo {
+    margin: .625rem 6.25rem;
+    height: 30rem; }
+    .seccion-equipo article:nth-child(1) {
+      height: 15%; }
+      .seccion-equipo article:nth-child(1) h2 {
+        font-size: 1.6875rem; }
+    .seccion-equipo article:nth-child(2) {
+      height: 85%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.875rem; }
+      .seccion-equipo article:nth-child(2) span {
+        height: 10.625rem;
+        gap: .3125rem; }
+        .seccion-equipo article:nth-child(2) span div {
+          gap: .3125rem; }
+          .seccion-equipo article:nth-child(2) span div img {
+            width: 7.8125rem;
+            height: 7.8125rem; }
+          .seccion-equipo article:nth-child(2) span div p {
+            font-size: 0.8125rem;
+            line-height: 1.125rem; }
   .seccion-contacto {
-    font-size: 14px;
-    width: 100%;
-    height: 6.25rem; }
-  .seccion-contacto h2 {
-    font-size: 14px;
-    height: 50%; }
-  .seccion-contacto div {
-    height: 50%; }
-  .boton-contactar {
-    padding: 7px 17px; }
-  .boton-contactar a {
-    font-size: 12px; }
-  /* 375 - Seccion Beneficios */
+    height: 12.5rem; }
+    .seccion-contacto h2 {
+      font-size: 1.6875rem; }
+    .seccion-contacto div a {
+      font-size: 0.8125rem;
+      padding: .75rem 1.25rem; }
+    .seccion-contacto div a:hover {
+      font-size: 0.8125rem; }
+    .seccion-contacto div a::after {
+      padding: .75rem 1.25rem; }
   .seccion-beneficios {
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    height: 21.875rem;
+    margin: 1.25rem 4.375rem; }
+    .seccion-beneficios article:nth-child(1) h2 {
+      font-size: 1.6875rem; }
+    .seccion-beneficios article:nth-child(2) {
+      gap: 2.1875rem; }
+      .seccion-beneficios article:nth-child(2) div:nth-child(1) {
+        width: 18.75rem; }
+        .seccion-beneficios article:nth-child(2) div:nth-child(1) img {
+          width: 18rem;
+          height: 9.875rem; }
+      .seccion-beneficios article:nth-child(2) div:nth-child(2) ul li {
+        font-size: 0.8125rem;
+        line-height: 1.125rem;
+        text-align: justify; }
+  /* 768 - main ciudadania italiana */
+  .intro-ciudadania {
+    margin: 0% 4.375rem;
+    height: 18.75rem;
+    gap: 1.875rem; }
+    .intro-ciudadania article:nth-child(1) img {
+      width: 15.1875rem;
+      height: 16rem; }
+    .intro-ciudadania article:nth-child(2) h2 {
+      font-size: 1.6875rem; }
+    .intro-ciudadania article:nth-child(2) p {
+      padding-top: 1.25rem;
+      font-size: .875rem;
+      line-height: 1.125rem; }
+  .contenido-ciudadania {
     width: 100%;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .beneficios-titulo {
-    height: 20%;
-    gap: .5rem; }
-  .beneficios-titulo h2 {
-    font-size: 14px; }
-  .list-ventajas {
+    height: 37.5rem;
+    margin-top: 1.875rem; }
+    .contenido-ciudadania article:nth-child(1) {
+      height: 25%; }
+      .contenido-ciudadania article:nth-child(1) h2 {
+        font-size: 1.6875rem; }
+      .contenido-ciudadania article:nth-child(1) p {
+        font-size: 0.8125rem;
+        line-height: 1.125rem;
+        margin: 1.25rem 6.25rem; }
+    .contenido-ciudadania article:nth-child(2) {
+      height: 75%; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 {
+        width: 100%;
+        height: 3.125rem;
+        font-size: 1.0625rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
+        font-size: 0.8125rem;
+        line-height: 1.125rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 {
+        font-size: 1.0625rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
+        font-size: 0.8125rem;
+        line-height: 1.125rem; }
+  .contenido-final {
+    height: 10.625rem;
+    padding: 0% 6.25rem; }
+    .contenido-final h3 {
+      font-size: 1.0625rem; }
+    .contenido-final p {
+      font-size: 0.8125rem;
+      line-height: 1.125rem; }
+  /* 768 - main guia paso a paso */
+  main div img {
+    width: 25%;
+    height: 12.5rem; }
+  .guia h1 {
+    top: 19.875rem;
+    font-size: 7.8125rem; }
+  .guia h2 {
+    font-size: 1.6875rem; }
+  .guia p {
+    margin-top: 1.875rem;
+    font-size: 0.8125rem;
+    line-height: 1.125rem; }
+  .guia-1-etapa {
+    margin: 3.125rem 4.375rem; }
+    .guia-1-etapa span h3 {
+      width: 45%;
+      font-size: 1.0625rem; }
+  .part-1, .part-2 {
     width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center; }
-  .list-ventajas li {
-    font-size: 10px;
-    line-height: 14px;
-    width: 16.875rem;
-    text-align: justify; }
-  .list-ventajas div {
-    align-self: center; }
-  .paisaje-home2 {
-    width: 185px;
-    height: 110px; }
-  /* 375- PAGINA CONTACTANOS */
-  .formulario {
-    height: 36.875rem;
-    grid-template-columns: repeat(4, 5rem);
-    grid-template-rows: 6.25rem 3.75rem 3.75rem 11.875rem 2.5rem 6.25rem;
-    grid-template-areas: "form-titulo form-titulo form-titulo form-titulo" "box-data box-data box-data box-data" "box-email box-email box-email box-email" "box-consulta box-consulta box-consulta box-consulta" "form-suscrip form-suscrip form-suscrip form-suscrip" "boton-enviar boton-enviar boton-enviar boton-enviar"; }
-  .form-titulo h2 {
-    font-size: 1rem; }
-  .box-data p {
-    font-size: .8125rem; }
-  .box-data input {
-    height: 1.875rem; }
-  .box-email p {
-    font-size: .8125rem; }
-  .box-email input {
-    height: 1.875rem; }
-  .box-consulta p {
-    font-size: .8125rem; }
-  .box-consulta input {
-    height: 8.125rem; }
-  .form-suscrip p {
-    font-size: .8125rem; }
-  .boton-enviar input {
-    width: 7.5rem;
-    height: 2.5rem;
-    font-size: .875rem; }
-  .ubicacion {
-    height: 24.375rem;
-    grid-template-columns: repeat(2, 9.6875rem);
-    grid-template-rows: repeat(2, 10.625rem);
-    grid-template-areas: "ubicacion-title ubicacion-title" "ubicacion-maps ubicacion-maps";
-    row-gap: .625rem; }
-  .ubicacion-title {
-    font-size: 1rem; }
-  .ubicacion-maps {
-    height: 100%;
-    width: 100%; }
-  /* 375 - footer */
-  .nav-footer {
-    width: 100%;
-    height: 5rem;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; }
-  .logo-footer {
-    width: 50%;
-    height: 100%; }
-  .logo-footer a img {
-    width: 7.8125rem;
-    height: 2.3125rem; }
-  .redes {
-    width: 50%;
-    height: 100%; }
-  .redes ul {
-    list-style: none;
+    height: 20rem;
     gap: .9375rem;
-    width: 100%;
-    height: 100%;
+    font-size: 0.8125rem;
+    line-height: 1.125rem; }
+    .part-1 div:nth-child(1) img, .part-2 div:nth-child(1) img {
+      width: 2.1875rem;
+      height: 2.1875rem; }
+    .part-1 div:nth-child(2) img, .part-2 div:nth-child(2) img {
+      width: 2.1875rem;
+      height: 2.1875rem; }
+  .card-texto h4 {
+    font-size: 0.8125rem; }
+  .card-texto p {
+    font-size: 0.8125rem;
+    line-height: 1.125rem; }
+  .guia-2-etapa {
+    height: 62.5rem;
+    margin: 1.25rem 0%; }
+    .guia-2-etapa article:nth-child(1) {
+      height: 5%;
+      margin: 0% 4.375rem; }
+      .guia-2-etapa article:nth-child(1) h3 {
+        width: 45%;
+        font-size: 1.0625rem; }
+    .guia-2-etapa article:nth-child(2) {
+      transform: rotate(-90deg);
+      width: 100%;
+      height: 95%;
+      gap: 5rem; }
+      .guia-2-etapa article:nth-child(2) span:nth-child(1) img {
+        width: 50rem;
+        height: .875rem; }
+      .guia-2-etapa article:nth-child(2) span:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 59.375rem;
+        height: 6.25rem;
+        gap: .3125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(1) {
+          transform: rotate(90deg);
+          order: 6;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(1) p {
+            font-size: 0.8125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) {
+          transform: rotate(90deg);
+          order: 5;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) p {
+            font-size: 0.8125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) {
+          transform: rotate(90deg);
+          order: 4;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) p {
+            font-size: 0.8125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) {
+          transform: rotate(90deg);
+          order: 3;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) p {
+            font-size: 0.8125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) {
+          transform: rotate(90deg);
+          order: 2;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) p {
+            font-size: 0.8125rem; }
+        .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) {
+          transform: rotate(90deg);
+          order: 1;
+          height: 6.25rem;
+          width: 11.25rem;
+          gap: .125rem; }
+          .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) p {
+            font-size: 0.8125rem; }
+  /* 768 - main asistencia al viajero */
+  .contenedor-asistencia {
+    height: 87.5rem;
+    grid-template-rows: repeat(17, 5rem); }
+  .banner-asistencia {
+    font-size: 1.6875rem;
+    line-height: 3.125rem; }
+    .banner-asistencia img {
+      width: 7.625rem;
+      height: 9rem; }
+  .asistencia-intro {
+    gap: .5rem; }
+    .asistencia-intro div:nth-child(1) h2 {
+      font-size: 1.6875rem; }
+    .asistencia-intro div:nth-child(2) {
+      margin-top: .625rem; }
+      .asistencia-intro div:nth-child(2) p {
+        font-size: 0.8125rem;
+        line-height: 1.125rem; }
+    .asistencia-intro div:nth-child(3) p {
+      font-size: 0.8125rem;
+      line-height: 1.125rem; }
+    .asistencia-intro div:nth-child(4) p {
+      font-size: 0.8125rem;
+      line-height: 1.125rem; }
+  .asistencia-coberturas {
+    margin-top: 1.25rem;
+    gap: 1.875rem; }
+    .asistencia-coberturas section:nth-child(1) {
+      height: 100%; }
+      .asistencia-coberturas section:nth-child(1) h3 {
+        font-size: 1.0625rem; }
+    .asistencia-coberturas section:nth-child(2) {
+      height: 100%;
+      width: 28.125rem; }
+      .asistencia-coberturas section:nth-child(2) ul {
+        line-height: 1.125rem; }
+        .asistencia-coberturas section:nth-child(2) ul li {
+          font-size: 0.8125rem; }
+  .contenedor-cards-coberturas {
+    margin-top: .625rem; }
+    .contenedor-cards-coberturas div {
+      height: 35%; }
+      .contenedor-cards-coberturas div h2:nth-child(1) {
+        font-size: 1.6875rem; }
+      .contenedor-cards-coberturas div h2:nth-child(2) {
+        font-size: 1.6875rem; }
+  .cards-assist {
     display: flex;
-    justify-content: center;
-    align-items: center; }
-  .redes-sociales {
-    height: 1.5rem;
-    width: 1.125rem; } }
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65%;
+    gap: 1.875rem; }
+    .cards-assist article:nth-child(1) {
+      height: 72%;
+      width: 15rem; }
+      .cards-assist article:nth-child(1) h4 {
+        font-size: .9375rem; }
+      .cards-assist article:nth-child(1) div {
+        padding: .625rem; }
+        .cards-assist article:nth-child(1) div p {
+          font-size: 0.8125rem;
+          line-height: 1.125rem; }
+      .cards-assist article:nth-child(1) a {
+        font-size: 0.8125rem; }
+        .cards-assist article:nth-child(1) a button {
+          font-size: 0.8125rem; }
+    .cards-assist article:nth-child(2) {
+      height: 72%;
+      width: 15rem; }
+      .cards-assist article:nth-child(2) h4 {
+        font-size: .9375rem; }
+      .cards-assist article:nth-child(2) div {
+        padding: .625rem; }
+        .cards-assist article:nth-child(2) div p {
+          font-size: 0.8125rem;
+          line-height: 1.125rem; }
+      .cards-assist article:nth-child(2) a {
+        font-size: 0.8125rem; }
+        .cards-assist article:nth-child(2) a button {
+          font-size: 0.8125rem; }
+    .cards-assist article:nth-child(3) {
+      height: 72%;
+      width: 15rem; }
+      .cards-assist article:nth-child(3) h4 {
+        font-size: .9375rem; }
+      .cards-assist article:nth-child(3) div {
+        padding: .625rem; }
+        .cards-assist article:nth-child(3) div p {
+          font-size: 0.8125rem;
+          line-height: 1.125rem; }
+      .cards-assist article:nth-child(3) a {
+        font-size: 0.8125rem; }
+        .cards-assist article:nth-child(3) a button {
+          font-size: 0.8125rem; }
+  .seccion-asesoramiento {
+    grid-column: 2 / 8;
+    font-size: 0.8125rem;
+    line-height: 1.125rem; }
+  /* 768 - main contactanos */
+  .formulario {
+    height: 37.5rem;
+    grid-template-columns: repeat(4, 11rem);
+    grid-template-rows: 7.5rem 5.625rem 12.5rem 2.5rem 5rem; }
+  .form-titulo h2 {
+    font-size: 1.6875rem; }
+  .box-data p {
+    font-size: 0.8125rem;
+    width: 17.5rem; }
+  .box-data input {
+    font-size: 0.8125rem;
+    width: 17.5rem; }
+  .box-email p {
+    font-size: 0.8125rem;
+    width: 17.5rem; }
+  .box-email input {
+    font-size: 0.8125rem;
+    width: 17.5rem; }
+  .box-consulta p {
+    font-size: 0.8125rem;
+    width: 39.375rem; }
+  .box-consulta textarea {
+    font-size: 0.8125rem;
+    width: 39.375rem; }
+  .form-suscrip {
+    padding: 0% 2.1875rem; }
+    .form-suscrip p {
+      font-size: 0.8125rem; }
+  .boton-enviar {
+    font-size: 0.8125rem; }
+    .boton-enviar input {
+      font-size: 0.8125rem;
+      width: 6.25rem;
+      height: 1.875rem; }
+  .ubicacion {
+    width: 100%;
+    height: 15.625rem;
+    grid-template-columns: repeat(5, 8.3125rem);
+    grid-template-rows: repeat(3, 4.5rem); }
+  .ubicacion-title {
+    font-size: 1.6875rem; }
+  .ubicacion-maps {
+    width: 100%;
+    height: 100%; }
+  /* 768 - footer */
+  .logo-footer {
+    width: 40%;
+    height: 100%; }
+    .logo-footer a img {
+      width: 11.25rem;
+      height: 3.375rem; }
+  .redes {
+    height: 100%;
+    width: 60%; }
+    .redes ul li a img {
+      height: 1.8125rem;
+      width: 1.5rem; }
+    .redes p {
+      font-size: .6875rem; } }
 
 @media (max-width: 320px) {
   /* 320 - Navegador */
