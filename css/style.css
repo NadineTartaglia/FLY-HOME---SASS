@@ -2099,96 +2099,133 @@ footer {
       font-size: .6875rem; } }
 
 @media (max-width: 375px) {
-  /* 768 - header */
+  /* 375 - header */
   header {
     background-color: #000000;
     width: 100%;
-    height: 9.375rem; }
+    height: 10.625rem; }
     header nav {
       width: 100%;
       height: 100%;
       font-family: 'Montserrat', sans-serif;
-      font-size: .875rem;
+      font-size: .8125rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
   .seccion-home {
     width: 100%;
-    height: 55%;
+    height: 36%;
     margin: 0%; }
     .seccion-home a img {
-      width: 11.25rem;
-      height: 3.375rem; }
+      width: 10.125rem;
+      height: 3.0625rem; }
   .seccion-nav {
     width: 100%;
-    height: 45%;
+    height: 64%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0% 1.875rem; }
     .seccion-nav ul {
       margin-right: 0%;
       width: 100%;
-      height: 3.125rem; }
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
       .seccion-nav ul li {
         width: 10.9375rem; }
   .boton-nav {
-    padding: .5rem 1.5rem; }
+    padding: .3125rem .9375rem; }
   .boton-nav::after {
-    padding: .5rem 1.5rem; }
+    padding: .3125rem .9375rem; }
   .banner-principal {
-    font-size: 1.6875rem;
-    line-height: 4.375rem;
-    height: 25rem; }
-  /* 768 - main ciudadania italiana */
-  .seccion-servicios {
+    text-align: left;
+    width: 100%;
     height: 21.875rem;
-    margin: 1.25rem 5.625rem 1.25rem 5.625rem; }
-    .seccion-servicios article:nth-child(1) h2 {
-      font-size: 1.6875rem; }
-    .seccion-servicios article:nth-child(1) p {
-      font-size: 0.8125rem;
-      line-height: 1.125rem; }
-    .seccion-servicios article:nth-child(2) div {
-      width: 10.625rem;
-      height: 9rem; }
-      .seccion-servicios article:nth-child(2) div img {
-        width: 5rem;
-        height: 5rem; }
-      .seccion-servicios article:nth-child(2) div h4 {
-        font-size: .625rem; }
+    font-size: 1.375rem;
+    line-height: 2.8125rem;
+    padding: 2.1875rem; }
+  /* 375 - main ciudadania italiana */
+  .seccion-servicios {
+    height: 38.125rem;
+    margin: 1.25rem 1.875rem; }
+    .seccion-servicios article:nth-child(1) {
+      height: 35%;
+      gap: .625rem; }
+      .seccion-servicios article:nth-child(1) h2 {
+        width: 100%;
+        height: 30%;
+        font-size: 1.375rem; }
+      .seccion-servicios article:nth-child(1) p {
+        width: 100%;
+        height: 70%;
+        font-size: 0.75rem;
+        line-height: 1.0625rem; }
+    .seccion-servicios article:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 65%;
+      gap: .9375rem; }
+      .seccion-servicios article:nth-child(2) div {
+        width: 8.5rem;
+        height: 7.1875rem; }
+        .seccion-servicios article:nth-child(2) div img {
+          width: 3.75rem;
+          height: 3.75rem; }
+        .seccion-servicios article:nth-child(2) div h4 {
+          font-size: .625rem; }
   .seccion-elegirnos {
-    height: 25rem; }
-    .seccion-elegirnos article:nth-child(1) h2 {
-      font-size: 1.6875rem; }
+    height: 43.75rem;
+    margin: 0%; }
+    .seccion-elegirnos article:nth-child(1) {
+      width: 100%;
+      height: 15%;
+      gap: .125rem; }
+      .seccion-elegirnos article:nth-child(1) h2 {
+        font-size: 1.375rem; }
     .seccion-elegirnos article:nth-child(2) {
-      gap: 2.1875rem; }
-      .seccion-elegirnos article:nth-child(2) div {
-        width: 25rem; }
-        .seccion-elegirnos article:nth-child(2) div p {
-          font-size: 0.8125rem;
-          line-height: 1.125rem; }
-      .seccion-elegirnos article:nth-child(2) div img {
-        width: 15.5rem;
-        height: 13rem; }
-  .seccion-equipo {
-    margin: .625rem 6.25rem;
-    height: 30rem; }
-    .seccion-equipo article:nth-child(1) {
-      height: 15%; }
-      .seccion-equipo article:nth-child(1) h2 {
-        font-size: 1.6875rem; }
-    .seccion-equipo article:nth-child(2) {
-      height: 85%;
+      width: 100%;
+      height: 80%;
+      padding: 0%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 1.875rem; }
+      gap: .625rem; }
+      .seccion-elegirnos article:nth-child(2) div {
+        width: 18.75rem; }
+        .seccion-elegirnos article:nth-child(2) div p {
+          font-size: 0.75rem;
+          line-height: 1.0625rem; }
+      .seccion-elegirnos article:nth-child(2) div img {
+        width: 15.5rem;
+        height: 13rem; }
+  .seccion-equipo {
+    margin: 0%;
+    height: 56.25rem; }
+    .seccion-equipo article:nth-child(1) {
+      height: 10%; }
+      .seccion-equipo article:nth-child(1) h2 {
+        font-size: 1.375rem; }
+    .seccion-equipo article:nth-child(2) {
+      height: 90%;
+      gap: .3125rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
       .seccion-equipo article:nth-child(2) span {
-        height: 10.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25rem;
         gap: .3125rem; }
         .seccion-equipo article:nth-child(2) span div {
           gap: .3125rem; }
@@ -2196,36 +2233,56 @@ footer {
             width: 7.8125rem;
             height: 7.8125rem; }
           .seccion-equipo article:nth-child(2) span div p {
-            font-size: 0.8125rem;
+            font-size: 0.75rem;
             line-height: 1.125rem; }
   .seccion-contacto {
     height: 12.5rem; }
     .seccion-contacto h2 {
-      font-size: 1.6875rem; }
-    .seccion-contacto div a {
-      font-size: 0.8125rem;
-      padding: .75rem 1.25rem; }
-    .seccion-contacto div a:hover {
-      font-size: 0.8125rem; }
-    .seccion-contacto div a::after {
-      padding: .75rem 1.25rem; }
+      height: 60%;
+      font-size: 1.375rem; }
+    .seccion-contacto div {
+      height: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start; }
+      .seccion-contacto div a {
+        font-size: 0.75rem;
+        padding: .75rem 1.25rem; }
+      .seccion-contacto div a:hover {
+        font-size: 0.75rem; }
+      .seccion-contacto div a::after {
+        padding: .75rem 1.25rem; }
   .seccion-beneficios {
-    height: 21.875rem;
-    margin: 1.25rem 4.375rem; }
-    .seccion-beneficios article:nth-child(1) h2 {
-      font-size: 1.6875rem; }
+    height: 34.375rem;
+    margin: 0%; }
+    .seccion-beneficios article:nth-child(1) {
+      height: 23%;
+      gap: .125rem; }
+      .seccion-beneficios article:nth-child(1) h2 {
+        font-size: 1.375rem; }
     .seccion-beneficios article:nth-child(2) {
-      gap: 2.1875rem; }
+      height: 77%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 0; }
       .seccion-beneficios article:nth-child(2) div:nth-child(1) {
-        width: 18.75rem; }
+        width: 18.75rem;
+        order: 2; }
         .seccion-beneficios article:nth-child(2) div:nth-child(1) img {
           width: 18rem;
           height: 9.875rem; }
-      .seccion-beneficios article:nth-child(2) div:nth-child(2) ul li {
-        font-size: 0.8125rem;
-        line-height: 1.125rem;
-        text-align: justify; }
-  /* 768 - main ciudadania italiana */
+      .seccion-beneficios article:nth-child(2) div:nth-child(2) {
+        width: 100%;
+        padding: 10px 20px;
+        order: 1; }
+        .seccion-beneficios article:nth-child(2) div:nth-child(2) ul li {
+          font-size: 0.75rem;
+          line-height: 1.0625rem;
+          text-align: justify; }
+  /* 375 - main ciudadania italiana */
   .intro-ciudadania {
     margin: 0% 4.375rem;
     height: 18.75rem;
@@ -2234,7 +2291,7 @@ footer {
       width: 15.1875rem;
       height: 16rem; }
     .intro-ciudadania article:nth-child(2) h2 {
-      font-size: 1.6875rem; }
+      font-size: 1.375rem; }
     .intro-ciudadania article:nth-child(2) p {
       padding-top: 1.25rem;
       font-size: .875rem;
@@ -2246,9 +2303,9 @@ footer {
     .contenido-ciudadania article:nth-child(1) {
       height: 25%; }
       .contenido-ciudadania article:nth-child(1) h2 {
-        font-size: 1.6875rem; }
+        font-size: 1.375rem; }
       .contenido-ciudadania article:nth-child(1) p {
-        font-size: 0.8125rem;
+        font-size: 0.75rem;
         line-height: 1.125rem;
         margin: 1.25rem 6.25rem; }
     .contenido-ciudadania article:nth-child(2) {
@@ -2526,21 +2583,32 @@ footer {
   .ubicacion-maps {
     width: 100%;
     height: 100%; }
-  /* 768 - footer */
+  /* 375 - footer */
   .logo-footer {
-    width: 40%;
+    width: 48%;
     height: 100%; }
     .logo-footer a img {
-      width: 11.25rem;
-      height: 3.375rem; }
+      width: 10.125rem;
+      height: 3.0625rem; }
   .redes {
     height: 100%;
-    width: 60%; }
-    .redes ul li a img {
-      height: 1.8125rem;
-      width: 1.5rem; }
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0; }
+    .redes ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      .redes ul li a img {
+        height: 1.8125rem;
+        width: 1.5rem; }
     .redes p {
-      font-size: .6875rem; } }
+      text-align: center;
+      font-size: .625rem; } }
 
 @media (max-width: 320px) {
   /* 320 - Navegador */
