@@ -2142,6 +2142,7 @@ footer {
     padding: .3125rem .9375rem; }
   .boton-nav::after {
     padding: .3125rem .9375rem; }
+  /* 375 - main index ciudadania italiana */
   .banner-principal {
     text-align: left;
     width: 100%;
@@ -2149,7 +2150,6 @@ footer {
     font-size: 1.375rem;
     line-height: 2.8125rem;
     padding: 2.1875rem; }
-  /* 375 - main ciudadania italiana */
   .seccion-servicios {
     height: 38.125rem;
     margin: 1.25rem 1.875rem; }
@@ -2283,54 +2283,80 @@ footer {
           line-height: 1.0625rem;
           text-align: justify; }
   /* 375 - main ciudadania italiana */
+  /* 1° - SECCION */
   .intro-ciudadania {
-    margin: 0% 4.375rem;
-    height: 18.75rem;
-    gap: 1.875rem; }
-    .intro-ciudadania article:nth-child(1) img {
-      width: 15.1875rem;
-      height: 16rem; }
-    .intro-ciudadania article:nth-child(2) h2 {
-      font-size: 1.375rem; }
-    .intro-ciudadania article:nth-child(2) p {
-      padding-top: 1.25rem;
-      font-size: .875rem;
-      line-height: 1.125rem; }
+    margin: 0%;
+    height: 34.375rem;
+    gap: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .intro-ciudadania article:nth-child(1) {
+      width: 100%;
+      height: 50%; }
+      .intro-ciudadania article:nth-child(1) img {
+        width: 15.1875rem;
+        height: 16rem; }
+    .intro-ciudadania article:nth-child(2) {
+      width: 100%;
+      height: 50%;
+      padding: .625rem 2.5rem; }
+      .intro-ciudadania article:nth-child(2) h2 {
+        font-size: 1.375rem; }
+      .intro-ciudadania article:nth-child(2) p {
+        padding-top: 1.25rem;
+        font-size: .8125rem;
+        line-height: 1.0625rem; }
+  /* 2° - SECCION */
   .contenido-ciudadania {
     width: 100%;
-    height: 37.5rem;
-    margin-top: 1.875rem; }
+    height: 56.25rem;
+    margin-top: 0%; }
     .contenido-ciudadania article:nth-child(1) {
+      width: 100%;
       height: 25%; }
       .contenido-ciudadania article:nth-child(1) h2 {
         font-size: 1.375rem; }
       .contenido-ciudadania article:nth-child(1) p {
         font-size: 0.75rem;
-        line-height: 1.125rem;
-        margin: 1.25rem 6.25rem; }
+        line-height: 1.0625rem;
+        margin: 1.25rem; }
     .contenido-ciudadania article:nth-child(2) {
-      height: 75%; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 {
-        width: 100%;
-        height: 3.125rem;
-        font-size: 1.0625rem; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
-        font-size: 0.8125rem;
-        line-height: 1.125rem; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 {
-        font-size: 1.0625rem; }
-      .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
-        font-size: 0.8125rem;
-        line-height: 1.125rem; }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 75%;
+      width: 100%;
+      gap: 1.25rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(1) {
+        width: 90%; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(1) h3 {
+          width: 100%;
+          height: 3.125rem;
+          font-size: 1rem; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(1) p {
+          font-size: 0.75rem;
+          line-height: 1.125rem; }
+      .contenido-ciudadania article:nth-child(2) div:nth-child(2) {
+        width: 90%; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(2) h3 {
+          font-size: 1rem; }
+        .contenido-ciudadania article:nth-child(2) div:nth-child(2) p {
+          font-size: 0.75rem;
+          line-height: 1.125rem; }
+  /* 3° - SECCION */
   .contenido-final {
-    height: 10.625rem;
-    padding: 0% 6.25rem; }
+    height: 18.75rem;
+    padding: 1.875rem; }
     .contenido-final h3 {
-      font-size: 1.0625rem; }
+      font-size: 1rem; }
     .contenido-final p {
-      font-size: 0.8125rem;
-      line-height: 1.125rem; }
-  /* 768 - main guia paso a paso */
+      font-size: 0.75rem;
+      line-height: 1.0625rem;
+      padding-top: .625rem; }
+  /* 375 - main guia paso a paso */
   main div img {
     width: 25%;
     height: 12.5rem; }
