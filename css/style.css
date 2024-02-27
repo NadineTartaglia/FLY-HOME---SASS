@@ -2359,47 +2359,75 @@ footer {
   /* 375 - main guia paso a paso */
   main div img {
     width: 25%;
-    height: 12.5rem; }
+    height: 6.875rem; }
   .guia h1 {
-    top: 19.875rem;
-    font-size: 7.8125rem; }
+    top: 15.8125rem;
+    font-size: 6.25rem; }
   .guia h2 {
-    font-size: 1.6875rem; }
+    margin-top: 2.3125rem;
+    font-size: 1.375rem; }
   .guia p {
     margin-top: 1.875rem;
-    font-size: 0.8125rem;
-    line-height: 1.125rem; }
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+    padding: 0% 1.875rem; }
   .guia-1-etapa {
-    margin: 3.125rem 4.375rem; }
+    margin: 1.875rem 1.875rem; }
     .guia-1-etapa span h3 {
-      width: 45%;
-      font-size: 1.0625rem; }
+      width: 100%;
+      font-size: 1rem; }
   .part-1, .part-2 {
     width: 100%;
-    height: 20rem;
-    gap: .9375rem;
-    font-size: 0.8125rem;
-    line-height: 1.125rem; }
-    .part-1 div:nth-child(1) img, .part-2 div:nth-child(1) img {
-      width: 2.1875rem;
-      height: 2.1875rem; }
-    .part-1 div:nth-child(2) img, .part-2 div:nth-child(2) img {
-      width: 2.1875rem;
-      height: 2.1875rem; }
+    height: 25.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    font-size: 0.75rem;
+    line-height: 1.0625rem; }
+    .part-1 div:nth-child(1), .part-2 div:nth-child(1) {
+      width: 100%;
+      height: 11.875rem;
+      gap: .625rem;
+      padding: 1.25rem 0%; }
+      .part-1 div:nth-child(1) img, .part-2 div:nth-child(1) img {
+        width: 1.875rem;
+        height: 1.875rem; }
+    .part-1 div:nth-child(2), .part-2 div:nth-child(2) {
+      width: 100%;
+      height: 16.25rem;
+      gap: .625rem;
+      padding: 1.25rem 0%; }
+      .part-1 div:nth-child(2) img, .part-2 div:nth-child(2) img {
+        width: 1.875rem;
+        height: 1.875rem; }
+  .part-2 {
+    line-height: 1.0625rem; }
+    .part-2 div:nth-child(1) {
+      width: 100%;
+      height: 15rem;
+      gap: .625rem;
+      padding: 1.25rem 0%; }
+    .part-2 div:nth-child(2) {
+      width: 100%;
+      height: 10.625rem;
+      gap: .625rem;
+      padding: 1.25rem 0%; }
   .card-texto h4 {
-    font-size: 0.8125rem; }
+    font-size: 0.75rem; }
   .card-texto p {
-    font-size: 0.8125rem;
-    line-height: 1.125rem; }
+    font-size: 0.75rem;
+    line-height: 1.0625rem; }
   .guia-2-etapa {
     height: 62.5rem;
     margin: 1.25rem 0%; }
     .guia-2-etapa article:nth-child(1) {
       height: 5%;
-      margin: 0% 4.375rem; }
+      margin: 0% 1.875rem; }
       .guia-2-etapa article:nth-child(1) h3 {
-        width: 45%;
-        font-size: 1.0625rem; }
+        width: 100%;
+        font-size: 1rem; }
     .guia-2-etapa article:nth-child(2) {
       transform: rotate(-90deg);
       width: 100%;
@@ -2423,7 +2451,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(1) p {
-            font-size: 0.8125rem; }
+            font-size: 0.75rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) {
           transform: rotate(90deg);
           order: 5;
@@ -2431,7 +2459,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(2) p {
-            font-size: 0.8125rem; }
+            font-size: 0.75rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) {
           transform: rotate(90deg);
           order: 4;
@@ -2439,7 +2467,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(3) p {
-            font-size: 0.8125rem; }
+            font-size: 0.75rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) {
           transform: rotate(90deg);
           order: 3;
@@ -2447,7 +2475,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(4) p {
-            font-size: 0.8125rem; }
+            font-size: 0.75rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) {
           transform: rotate(90deg);
           order: 2;
@@ -2455,7 +2483,7 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(5) p {
-            font-size: 0.8125rem; }
+            font-size: 0.75rem; }
         .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) {
           transform: rotate(90deg);
           order: 1;
@@ -2463,8 +2491,8 @@ footer {
           width: 11.25rem;
           gap: .125rem; }
           .guia-2-etapa article:nth-child(2) span:nth-child(2) div:nth-child(6) p {
-            font-size: 0.8125rem; }
-  /* 768 - main asistencia al viajero */
+            font-size: 0.75rem; }
+  /* 375 - main asistencia al viajero */
   .contenedor-asistencia {
     height: 87.5rem;
     grid-template-rows: repeat(17, 5rem); }

@@ -337,6 +337,7 @@
 
             div:nth-child(2) {
                 width: 90%;
+
                 h3 {
                     font-size: map-get($font-size-xs, v2);
                 }
@@ -374,7 +375,7 @@
 
             img {
                 width: 25%;
-                height: 12.5rem;
+                height: 6.875rem;
             }
         }
     }
@@ -382,77 +383,108 @@
     .guia {
 
         h1 {
-            top: 19.875rem;
-            font-size: 7.8125rem;
+            top: 15.8125rem;
+            font-size: 6.25rem;
         }
 
         h2 {
-            font-size: map-get($font-size-s, v1);
+            margin-top: 2.3125rem;
+            font-size: map-get($font-size-xs, v1);
         }
 
         p {
             margin-top: 1.875rem;
-            font-size: map-get($font-size-s, v3);
-            line-height: 1.125rem;
+            font-size: map-get($font-size-xs, v3);
+            line-height: 1.0625rem;
+            padding: 0% 1.875rem;
         }
     }
 
     .guia-1-etapa {
-        margin: 3.125rem 4.375rem;
+        margin: 1.875rem 1.875rem;
 
         span {
             h3 {
-                width: 45%;
-                font-size: map-get($font-size-s, v2);
+                width: 100%;
+                font-size: map-get($font-size-xs, v2);
             }
         }
     }
 
     .part-1 {
         width: 100%;
-        height: 20rem;
-        gap: .9375rem;
-        font-size: map-get($font-size-s, v3);
-        line-height: 1.125rem;
+        height: 25.625rem;
+        @include flex(column, center, center);
+        gap: 0%;
+        font-size: map-get($font-size-xs, v3);
+        line-height: 1.0625rem;
 
         div:nth-child(1) {
+            width: 100%;
+            height: 11.875rem;
+            gap: .625rem;
+            padding: 1.25rem 0%;
 
             img {
-                width: 2.1875rem;
-                height: 2.1875rem;
+                width: 1.875rem;
+                height: 1.875rem;
             }
         }
 
         div:nth-child(2) {
+            width: 100%;
+            height: 16.25rem;
+            gap: .625rem;
+            padding: 1.25rem 0%;
+
             img {
-                width: 2.1875rem;
-                height: 2.1875rem;
+                width: 1.875rem;
+                height: 1.875rem;
             }
         }
     }
 
+    .part-2 {
+        line-height: 1.0625rem;
+        div:nth-child(1) {
+            width: 100%;
+            height: 15rem;
+            gap: .625rem;
+            padding: 1.25rem 0%;
+        }
+
+        div:nth-child(2) {
+            width: 100%;
+            height: 10.625rem;
+            gap: .625rem;
+            padding: 1.25rem 0%;
+        }
+    }
+    
+
+
     .card-texto {
         h4 {
-            font-size: map-get($font-size-s, v3);
+            font-size: map-get($font-size-xs, v3);
         }
 
         p {
-            font-size: map-get($font-size-s, v3);
-            line-height: 1.125rem;
+            font-size: map-get($font-size-xs, v3);
+            line-height: 1.0625rem;
         }
     }
-
+    
     .guia-2-etapa {
         height: 62.5rem;
         margin: 1.25rem 0%;
 
         article:nth-child(1) {
             height: 5%;
-            margin: 0% 4.375rem;
+            margin: 0% 1.875rem;
 
             h3 {
-                width: 45%;
-                font-size: map-get($font-size-s, v2);
+                width: 100%;
+                font-size: map-get($font-size-xs, v2);
             }
         }
 
@@ -484,7 +516,7 @@
                     gap: .125rem;
 
                     p {
-                        font-size: map-get($font-size-s, v3);
+                        font-size: map-get($font-size-xs, v3);
                     }
                 }
 
@@ -496,7 +528,7 @@
                     gap: .125rem;
 
                     p {
-                        font-size: map-get($font-size-s, v3);
+                        font-size: map-get($font-size-xs, v3);
                     }
                 }
 
@@ -508,7 +540,7 @@
                     gap: .125rem;
 
                     p {
-                        font-size: map-get($font-size-s, v3);
+                        font-size: map-get($font-size-xs, v3);
                     }
                 }
 
@@ -520,7 +552,7 @@
                     gap: .125rem;
 
                     p {
-                        font-size: map-get($font-size-s, v3);
+                        font-size: map-get($font-size-xs, v3);
                     }
                 }
 
@@ -532,7 +564,7 @@
                     gap: .125rem;
 
                     p {
-                        font-size: map-get($font-size-s, v3);
+                        font-size: map-get($font-size-xs, v3);
                     }
                 }
 
@@ -544,14 +576,14 @@
                     gap: .125rem;
 
                     p {
-                        font-size: map-get($font-size-s, v3);
+                        font-size: map-get($font-size-xs, v3);
                     }
                 }
             }
         }
     }
 
-    /* 768 - main asistencia al viajero */
+    /* 375 - main asistencia al viajero */
     .contenedor-asistencia {
         height: 87.5rem;
         grid-template-rows: repeat(17, 5rem);
