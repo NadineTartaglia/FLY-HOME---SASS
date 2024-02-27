@@ -2374,11 +2374,12 @@ footer {
   .guia-1-etapa {
     margin: 1.875rem 1.875rem; }
     .guia-1-etapa span h3 {
+      margin-bottom: 1.25rem;
       width: 100%;
       font-size: 1rem; }
   .part-1, .part-2 {
     width: 100%;
-    height: 25.625rem;
+    height: 26.875rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2396,7 +2397,7 @@ footer {
         height: 1.875rem; }
     .part-1 div:nth-child(2), .part-2 div:nth-child(2) {
       width: 100%;
-      height: 16.25rem;
+      height: 15rem;
       gap: .625rem;
       padding: 1.25rem 0%; }
       .part-1 div:nth-child(2) img, .part-2 div:nth-child(2) img {
@@ -2411,7 +2412,7 @@ footer {
       padding: 1.25rem 0%; }
     .part-2 div:nth-child(2) {
       width: 100%;
-      height: 10.625rem;
+      height: 11.875rem;
       gap: .625rem;
       padding: 1.25rem 0%; }
   .card-texto h4 {
@@ -2421,18 +2422,19 @@ footer {
     line-height: 1.0625rem; }
   .guia-2-etapa {
     height: 62.5rem;
-    margin: 1.25rem 0%; }
+    margin: 1.25rem 1.875rem; }
     .guia-2-etapa article:nth-child(1) {
-      height: 5%;
-      margin: 0% 1.875rem; }
+      width: 100%;
+      margin: 0%; }
       .guia-2-etapa article:nth-child(1) h3 {
         width: 100%;
+        height: 3.125rem;
         font-size: 1rem; }
     .guia-2-etapa article:nth-child(2) {
       transform: rotate(-90deg);
       width: 100%;
       height: 95%;
-      gap: 5rem; }
+      gap: 2.8125rem; }
       .guia-2-etapa article:nth-child(2) span:nth-child(1) img {
         width: 50rem;
         height: .875rem; }
